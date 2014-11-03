@@ -5,6 +5,7 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
+<img src="https://rv.wkcdn.net/http://rigvedawiki.net/r1/wiki.php/%EC%BF%A0%ED%81%AC%EB%8B%A4%EC%8A%A4?action=download&value=8801111186100.jpg" width = "500" height = "200">
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
