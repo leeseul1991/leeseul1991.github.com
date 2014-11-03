@@ -1,41 +1,59 @@
-Herring Cove
-============
+flex
+====
 
-Herring Cove is a clean and responsive theme for Jekyll. 
+Flex is a responsive, flexible, [Jekyll](http://jekyllrb.com) theme.
+
+The theme is based on the website [The Development](http://thedevelopment.co).
+
+View a demo website [here](http://the-development.github.io/flex/).
+
+Installation
+===
+To use this theme, you would do so like any other Jekyll setup:
+
+1. Install Jekyll: `gem install jekyll`
+2. Fork this repository to your machine
+3. `cd` to the forked directory and run `jekyll serve --watch`
+4. Celebrate and dance.
+
+Contributions
+===
+
+In general, there are no strict rules for contributing, only that your code is clean and well structured.
+
+For bugs:
+- To merge a fix, you can simply open a pull request.
+- To report one that is not yet fixed, open an issue.
+
+Feature requests:
+- **Always** open an issue first before implementing and proposing a new feature. This is only so I can make sure the theme doesn't become bloated with too many features. This way, I can determine if an idea is something that makes sense for the theme's design.
+
+If in doubt, you can always ask me on Twitter: [@jeffxmn](https://twitter.com/jeffxmn)
+
+License
+===
+
+Flex is licensed under the MIT license:
 
 
-### Overview 
+The MIT License (MIT)
 
-* Fixed Sidebar with social links
-* Minimal design 
-* Comments by Disqus
-* Social Sharing abilities 
-* Easy to configure
-* Based on Bootstrap
+Copyright (c) 2013-2014 Jeff Martin
 
-### Screenshots
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-![screenshot](/images/screenshot1.png)
-![screenshot](/images/screenshot2.png)
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### Setup
-
-1. Install Jekyll
-2. Fork or [download](https://github.com/arnp/herring-cove/archive/master.zip) this theme repo
-3. Edit the `_config.yml` file
-
-You can change the showcase image by replacing `showcase.jpg` file in the `images` folder. I'll try to find a better way to do this soon. 
-
-### Download
-
-[download](https://github.com/arnp/herring-cove/archive/master.zip)
-
-### License
-* [MIT](http://opensource.org/licenses/MIT)
-
--------------
-Herring Cove is always a work in progress and as such, I hope to clean up the code and add features as time permits. Feel free to add your own additions. 
-
-*What's with the name?*
-
-[Herring Cove](http://www.capecodbeachchair.com/beachguide/index.cfm?page=3&BeachID=5) is a beach on Cape Cod in Provincetown, Massachusetts. If you're in the area, be sure to check it out!
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
