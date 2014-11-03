@@ -1,6 +1,6 @@
 ---
 layout: post
-title: C프로그래밍기초
+title: C언어기초
 ---
 
 # Samples
