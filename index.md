@@ -4,8 +4,10 @@ layout: page
 {% include JB/setup %}
 
 <img src="http://cfile23.uf.tistory.com/image/172A0B3950641DAB264C91" width = "900" height = "200">
+---
+title :  공대녀's 학습블로그
+---
 
-# 공대녀's 학습블로그
 ## 안녕하세요? 공대녀입니다.
 ## 우리같이 즐겁게 C언어를 공부해보아요.
 ## 교수님 사랑합니다.
