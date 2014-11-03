@@ -1,6 +1,6 @@
 ---
 layout: post
-title: asadsadsadadsada
+title: C프로그래밍기초
 ---
 
 # Samples
