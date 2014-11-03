@@ -3,45 +3,28 @@ layout: page
 ---
 {% include JB/setup %}
 
-<img src="http://cfile23.uf.tistory.com/image/172A0B3950641DAB264C91" width = "900" height = "250">
+<img src="http://cfile23.uf.tistory.com/image/172A0B3950641DAB264C91" width = "900" height = "280">
 
 
 <div>
-<p>.</p>
-<p>.</p>
+<br></br>
 <h1>      공대녀's 학습블로그 </h1>
 <br></br>
 <br></br>
 <h2>      안녕하세요? 공대녀 입니다.</h2>
-<p>.</p>
+<br></br>
 <h2>      우리함께 열심히 C언어를 공부해보아요.</h2>
-<p>.</p>
+<br></br>
 <h3>      교수님 사랑합니다♥</h3>
-<p>.</p>
-<p>.</p>
-<p>.</p>
+<br></br>
+<br></br>
 </div>
 
 
-
-
-
-
-     
       name : 공대녀
       email : an_dms@naver.com
       github : leeseul1991.github.com
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
 
 <ul class="posts">
   {% for post in site.posts %}
