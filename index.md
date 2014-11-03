@@ -5,8 +5,20 @@ tagline:
 ---
 {% include JB/setup %}
 
-<img src="http://cfile23.uf.tistory.com/image/172A0B3950641DAB264C91" width = "800" height = "150">
+<img src="http://cfile23.uf.tistory.com/image/172A0B3950641DAB264C91" width = "800" height = "250">
+
+
+---
+
+title: 공대녀's 학습 블로그 
+tagline:  
+---
+
+
+
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+
+
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
