@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  반복문
 date:   2014-11-01 22:02:13
 categories: jekyll update
 ---
