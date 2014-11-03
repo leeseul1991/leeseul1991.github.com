@@ -5,27 +5,12 @@ layout: page
 
 <img src="http://cfile23.uf.tistory.com/image/172A0B3950641DAB264C91" width = "900" height = "200">
 
+# 공대녀's 학습블로그
 
-
-
-
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
-
-
-
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+      
+      name : 공대녀
+      email : an_dms@naver.com
+      github : leeseul1991.github.com
 
 The theme should reference these variables whenever needed.
     
