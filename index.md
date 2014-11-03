@@ -13,6 +13,7 @@ layout: page
 <h1>  공대녀's 학습블로그 </h1>
 <br></br>
 <h2>     안녕하세요? 공대녀 입니다.</h2>
+<br></br>
 <h2>     우리함께 열심히 <font color="red"><b>C언어</b></font>를 공부해보아요.</h2>
 <br></br>
 <h3>     교수님 사랑합니다<font color="red">♥</font></h3>
@@ -21,6 +22,7 @@ layout: page
 <br></br>
 <font color="red"><b>--------------------------------------------------------------------------------------------------------------------------------------------------</b></font>
 ## Contact
+      name : 공대녀
       email : an_dms@naver.com
       github : leeseul1991.github.com
 
