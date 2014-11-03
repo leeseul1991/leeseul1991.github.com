@@ -25,5 +25,5 @@ layout: page
       email : an_dms@naver.com
       github : leeseul1991.github.com
 
-
+<br></br>
 © 2014 kyeongsoo, jungeun, seul. Theme: Flex
