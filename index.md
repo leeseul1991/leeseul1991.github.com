@@ -1,18 +1,11 @@
 ---
 layout: page
-title: 
-tagline: 
 ---
 {% include JB/setup %}
 
-<img src="http://cfile23.uf.tistory.com/image/172A0B3950641DAB264C91" width = "800" height = "250">
+<img src="http://cfile23.uf.tistory.com/image/172A0B3950641DAB264C91" width = "900" height = "200">
 
 
----
-
-title: 공대녀's 학습 블로그 
-tagline:  
----
 
 
 
