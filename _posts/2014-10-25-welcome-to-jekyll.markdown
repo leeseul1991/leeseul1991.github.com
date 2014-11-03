@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2013-11-08 19:55:16
+title:  연산자
+date:   2014-10-25 19:55:16
 categories: jekyll update
 ---
 
