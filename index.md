@@ -21,7 +21,7 @@ layout: page
 </div>
 
 <br></br>
-## Contact
+## <font color="red">C</font>ontact
       name : 공대녀
       email : an_dms@naver.com
       github : leeseul1991.github.com
