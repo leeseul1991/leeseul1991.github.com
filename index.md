@@ -8,9 +8,9 @@ layout: page
 
 
 <body>
-<h1>  </h1>
+<p>  </p>
 <h1>공대녀's 학습블로그</h1>
-<h1>  </h1>
+<p>  </p>
 </body>
 
 
