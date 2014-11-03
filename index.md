@@ -6,11 +6,15 @@ layout: page
 <img src="http://cfile23.uf.tistory.com/image/172A0B3950641DAB264C91" width = "900" height = "200">
 
 
+
 <body>
 <h1></h1>
 <h1>공대녀's 학습블로그</h1>
 <h1></h1>
 </body>
+
+
+
 
 
 안녕하세요? 공대녀입니다.
@@ -20,7 +24,7 @@ layout: page
 교수님 사랑합니다.
 
      
-     name : 공대녀
+      name : 공대녀
       email : an_dms@naver.com
       github : leeseul1991.github.com
 
