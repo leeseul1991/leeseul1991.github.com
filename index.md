@@ -8,15 +8,12 @@ layout: page
 
 <div>
 <br></br>
-<h1>      공대녀's 학습블로그 </h1>
+<h1>   &nbsp   공대녀's 학습블로그 </h1>
 <br></br>
+<h2>     &nbsp 안녕하세요? 공대녀 입니다.</h2>
 <br></br>
-<h2>      안녕하세요? 공대녀 입니다.</h2>
-<br></br>
-<h2>      우리함께 열심히 C언어를 공부해보아요.</h2>
-<br></br>
-<h3>      교수님 사랑합니다♥</h3>
-<br></br>
+<h2>    &nbsp  우리함께 열심히 <fontcolor="red">C언어</font>를 공부해보아요.</h2>
+<h3>    &nbsp  교수님 사랑합니다<font color="red">♥</font></h3>
 <br></br>
 </div>
 
