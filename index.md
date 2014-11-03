@@ -2,18 +2,18 @@
 layout: page
 ---
 {% include JB/setup %}
-
+<font color="red"><b>---</b></font>
 <img src="http://cfile23.uf.tistory.com/image/172A0B3950641DAB264C91" width = "900" height = "280">
-
+---
 
 <div>
 <br></br>
-<h1>   &nbsp   공대녀's 학습블로그 </h1>
+<h1>&nbsp&nbsp공대녀's 학습블로그 </h1>
 <br></br>
-<h2>     &nbsp 안녕하세요? 공대녀 입니다.</h2>
+<h2>&nbsp&nbsp&nbsp안녕하세요? 공대녀 입니다.</h2>
+<h2>&nbsp&nbsp&nbsp우리함께 열심히 <font color="red"><b>C언어</b></font>를 공부해보아요.</h2>
 <br></br>
-<h2>    &nbsp  우리함께 열심히 <fontcolor="red">C언어</font>를 공부해보아요.</h2>
-<h3>    &nbsp  교수님 사랑합니다<font color="red">♥</font></h3>
+<h3>&nbsp&nbsp&nbsp교수님 사랑합니다<font color="red">♥</font></h3>
 <br></br>
 </div>
 
