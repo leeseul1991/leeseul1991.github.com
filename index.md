@@ -9,7 +9,9 @@ layout: page
 
 #공대녀's 학습블로그
 
-
+<p></p>
+<p></p>
+<p></p>
 
 
 안녕하세요? 공대녀입니다.
@@ -18,7 +20,7 @@ layout: page
 교수님 사랑합니다.
 
      
-     <h3>name : 공대녀</h3>
+     name : 공대녀
       email : an_dms@naver.com
       github : leeseul1991.github.com
 
