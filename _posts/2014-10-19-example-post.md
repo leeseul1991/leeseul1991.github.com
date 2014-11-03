@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Example post
+title: 변수와 자료유형
 cover: cover.jpg
 date:   2013-12-09 12:00:00
 categories: posts
