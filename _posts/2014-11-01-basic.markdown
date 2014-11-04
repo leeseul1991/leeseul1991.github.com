@@ -247,6 +247,38 @@ for (...;...;...;) {
  
 
 
+## 3.goto
+
+goto 문은 지정한 곳으로 무조건 점프하는 명령을 수행하는 제어문인데 사용하기가 쉽고 아래와 같은 방법으로 사용할 수가 있습니다.
+
+{% highlight ruby %}
+#include <stdio.h>
+ 
+int main()
+{
+ printf("1\n");
+ printf("2\n");
+ goto five; // five로 점프를 시키는 명령
+ printf("3\n");
+ printf("4\n");
+ five: // five
+ printf("5\n");
+ printf("6\n");
+return 0;
+}
+{% endhighlight %}
+
+결과:
+{% highlight ruby %}
+1
+2
+5
+6
+{% endhighlight %}
+
+왜 저러한 결과가 나오신지는 이해가 확 가시죠? 코드를 읽어보시면, 우선 1과 2를 출력하고 goto five;라는 문장을 만나 five 레이블로 건너뜁니다. 그러면 five: 부터 코드가 다시 실행되는데, 3과 4는 출력하지 못하고 5와 6이 출력되는 것입니다. 상당히 편해보이고 유용해 보이지만, goto문은 프로그램의 구조를 해치며 goto문이 많아지면 상당히 복잡해지고 부작용이 많습니다. goto 문의 사용은 가급적이면 줄이시는게 좋습니다.
+
+
 
 
 
