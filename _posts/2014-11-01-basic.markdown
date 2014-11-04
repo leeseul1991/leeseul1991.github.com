@@ -40,11 +40,7 @@ categories: jekyll update
 
 
 ### 설치 동영상
-<embed src="http://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=9037EAACB5ECD0FDE9F796DD3461C14742F7&outKey=V1271fc77e0881e92bd3299353788887a0d33e864a4e98f47d2f699353788887a0d33" width="500" height="500" autostart="0">
-
 <iframe width="720" height="438" src="http://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=9037EAACB5ECD0FDE9F796DD3461C14742F7&outKey=V1271fc77e0881e92bd3299353788887a0d33e864a4e98f47d2f699353788887a0d33" frameborder="no" scrolling="no"></iframe>
-
-<p class="oembed"><a href="http://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=9037EAACB5ECD0FDE9F796DD3461C14742F7&outKey=V1271fc77e0881e92bd3299353788887a0d33e864a4e98f47d2f699353788887a0d33" data-props="" target="_blank">caption</a></p>
 
 해당 사이트로 이동하셨으면, Visual Studio Express 2012 for Windows Desktop를 클릭하여 다운로드 언어를 한국어로 선택하고 아래의 설치 옵션에서 Windows Desktop용 Visual Studio 2012 Express - 한국어의 지금 설치를 클릭합니다. 그리고 wdexpress_full.exe가 다운로드 되면 바로 실행시킵니다.
 
