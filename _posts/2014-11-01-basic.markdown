@@ -40,6 +40,8 @@ categories: jekyll update
 
 
 ### 설치 동영상
+<embed src="http://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=9037EAACB5ECD0FDE9F796DD3461C14742F7&outKey=V1271fc77e0881e92bd3299353788887a0d33e864a4e98f47d2f699353788887a0d33" width="500" height="500" autostart="0">
+
 <iframe width="720" height="438" src="http://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=9037EAACB5ECD0FDE9F796DD3461C14742F7&outKey=V1271fc77e0881e92bd3299353788887a0d33e864a4e98f47d2f699353788887a0d33" frameborder="no" scrolling="no"></iframe>
 
 <p class="oembed"><a href="http://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=9037EAACB5ECD0FDE9F796DD3461C14742F7&outKey=V1271fc77e0881e92bd3299353788887a0d33e864a4e98f47d2f699353788887a0d33" data-props="" target="_blank">caption</a></p>
