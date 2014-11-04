@@ -4,6 +4,17 @@ title:  반복문
 date:   2014-11-01 22:02:13
 categories: jekyll update
 ---
+국민학교나 초등학교, 중고등학교 시절을 겪은 사람들은 소위 '빽빽이' 혹은 '깜지' 라고 하는 숙제를 해 본 적이 있을 것이다. 
+ 
+지금도 고전적으로 사용되어지는 방법인데, 반복하여 똑같은 단어나 문장을 쓰면서 암기하는 방법 중의 하나이다.
+ 
+문제는 그렇게 해서 외워지면 참 좋을텐데, 외워지지도 않으면서 무조건 여러번 써 와야 하는 숙제같은 경우가 참 난감했다.
+ 
+그 당시, 샤프나 볼펜 등을 여러 개 붙여서 고정을 시킨 뒤에 단어를 쓰면
+ 
+금방 빽빽이나 깜지를 채울 수 있지 않을까 하는 생각을 했던 사람들도 분명 있을 것이다.
+ 
+ 자발적으로 하면 모를까, 숙제를 제출하기 위해 억지로 하다보면 이는 매우 단순하고 비효율적인 작업이기 때문이다.
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
