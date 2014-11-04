@@ -5,8 +5,7 @@ date:   2014-11-01 22:02:13
 categories: jekyll update
 ---
 
-#반복문
-## (while, for, do~while)
+# (while, for, do~while)
 
 
 ###1. while, do~while, continue
