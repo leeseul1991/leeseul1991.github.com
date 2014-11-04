@@ -40,20 +40,8 @@ continue : 반복문의 처음으로 되돌아간다. 즉, continue 아래의 �
 반복문 중에서도 ++일반적으로 사용되는 for 문은 원하는 횟수 만큼 반복하기에 용이++하다는 장점을 가지고 있다.
 
 {% highlight ruby %}
-######초기식 : 반복문에 사용될 변수의 초기값을 지정
-######조건식 : for 문을 탈출하게 될 조건을 지정 -> 조건이 거짓이 되면 탈출
-######증감식 : 반복문에 사용하는 변수의 증감을 지정
-######실행 순서 : 초기식 -> 조건식 -> 반복코드 실행 -> 증감식 -> 조건식 ->'''...
+초기식 : 반복문에 사용될 변수의 초기값을 지정
+조건식 : for 문을 탈출하게 될 조건을 지정 -> 조건이 거짓이 되면 탈출
+증감식 : 반복문에 사용하는 변수의 증감을 지정
+실행 순서 : 초기식 -> 조건식 -> 반복코드 실행 -> 증감식 -> 조건식 ->'''...
 {% endhighlight %}
-
-
-
- 
-
-Jekyll also offers powerful support for code snippets:
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
