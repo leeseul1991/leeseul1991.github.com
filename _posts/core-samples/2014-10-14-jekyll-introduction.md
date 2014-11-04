@@ -1,6 +1,8 @@
 ---
 layout: post
-title: C언어학습계획 
+title:  문자열 함수
+date:   2014-10-14 22:02:13
+categories: jekyll update
 ---
 
 # Samples
