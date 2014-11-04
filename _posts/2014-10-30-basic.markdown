@@ -39,26 +39,9 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
 </head>
 <body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-39 node-type-c-programming" >
-  <div id="skip-link">
-    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
-  </div>
-    <!-- Header starts -->
-<header id="pageHeader" class="cf" role="banner">
-<div class="headerWrapper">
-<div class="headerContent cf"> <a href="/" title="Home" >Programming Tutorials, Articles and Examples</a>
-</div>
+<!-- Header starts --><!-- Header end -->
 
-</header>
-<!-- Header end -->
-
-<!-- Main Navigation starts-->
-<nav id="mainNav" role="navigation">
-<h2>Main Menu</h2><ul class="expand"><li class="menu-227 first"><a href="/">Home</a></li>
-<li class="menu-633"><a href="/c-programming">C Programming</a></li>
-<li class="menu-568"><a href="/cpp-programming" title="C++ Programming Tutorial">C++</a></li>
-<li class="menu-1647 last"><a href="/python-programming" title="Python Programming Tutorial">Python</a></li>
-</ul></nav>
-<!-- Main Navigation ends-->
+<!-- Main Navigation starts--><!-- Main Navigation ends-->
 
 <!-- Fixed navigation slide starts
 <div class="fixedNav cf">
@@ -72,16 +55,9 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 </div> -->
 
 <article id="main" role="main">
-  
-<div id="content">
-	
-<!-- Content Top Starts -->	
-	<!-- Content Top Ends -->	
-
-    
-<!-- Main Content Starts-->
+  <div id="content">
     <section class="mainContent">
-	            <h1>C Programming Structure</h1>                
+      <h1>C Programming Structure</h1>                
         	<div class="contentInside">
 	    	  <div class="region region-content-inside">
       
@@ -201,93 +177,21 @@ struct number{
 
 </div>
   </div>
-       	    </section>
+    </section>
 <!-- Main Content Ends-->
 
-<!-- Content Bottom Starts -->
-    <div class="mainBottom">
-	    	  <div class="region region-content-bottom">
-      
-    
-<div class="chapter cf">
-	  <div class="prev"><a href="http://www.programiz.com/c-programming/c-string-examples"> ◄ Previous Page</a></div>
-  <div class="next"><a href="http://www.programiz.com/c-programming/c-structures-pointers">Next Page ► </a></div>
-</div>
-  
-    <div class="cf">
-
-<div id="mediaNetLeft">
-<script id="mNCC" language="javascript">  medianet_width='300';  medianet_height= '250';  medianet_crid='258231851';  </script>  <script id="mNSC" src="http://contextual.media.net/nmedianet.js?cid=8CU166D9L" language="javascript"></script>
-</div>
-
-<div id="mediaNetRight">
-
-<!-- MadAdsMedia.com Asynchronous Ad Tag For Programiz.com -->
-<!-- Size: 300x250 -->
-<script language="JavaScript" type="text/javascript">
-var prot = document.location.protocol;
-document.write('<script language="JavaScript" type="text/javascript"'); document.write('src="'+prot+'//ads-by.madadsmedia.com/tags/25723/10259/async/300x250.js">'); document.write('<\/scr' + 'ipt>');
-</script>
-<!-- MadAdsMedia.com Asynchronous Ad Tag For Programiz.com -->
-								
-</div>
-
-</div>  </div>
-    </div>
-
-<!-- Content Bottom Ends -->
+<!-- Content Bottom Starts --><!-- Content Bottom Ends -->
   </div>
 
-<!-- Left sidebar Starts -->
-  <aside id="sidebar" role="complementary">
-      <div class="region region-sidebar-left">
-      
-    <nav role="navigation"><h2>C Programming</h2><ul class="topMenu"><li><h3>C Introduction</h3><ul class="subMenu"><li><a href="http://www.programiz.com/c-programming/c-keywords-identifier" target="_top">Keywords &amp;&nbsp;Identifier</a></li><li><a href="http://www.programiz.com/c-programming/c-variables-constants" target="_top">Variables &amp;&nbsp;Constants</a></li><li><a href="http://www.programiz.com/c-programming/c-data-types" target="_top">C Data Types</a></li><li><a href="http://www.programiz.com/c-programming/c-input-output" target="_top">C Input/Output</a></li><li><a href="http://www.programiz.com/c-programming/c-operators" target="_top">C Operators</a></li><li><a href="http://www.programiz.com/c-programming/c-introduction-examples" target="_top">C Introduction Examples</a></li></ul></li><li><h3>C Flow Control</h3><ul class="subMenu"><li><a href="http://www.programiz.com/c-programming/c-if-else-statement" target="_top">C&nbsp;if...else</a></li><li><a href="http://www.programiz.com/c-programming/c-for-loop" target="_top">C for Loop</a></li><li><a href="http://www.programiz.com/c-programming/c-do-while-loops" target="_top">C do...while Loop</a></li><li><a href="http://www.programiz.com/c-programming/c-break-continue-statement" target="_top">C break and&nbsp;continue</a></li><li><a href="http://www.programiz.com/c-programming/c-switch-case-statement" target="_top">C&nbsp;switch...case</a></li><li><a href="http://www.programiz.com/c-programming/c-goto-statement">C Programming goto</a></li><li><a href="http://www.programiz.com/c-programming/c-decision-making-loops-examples" target="_top">Control Flow Examples</a></li></ul></li><li><h3>C Functions</h3><ul class="subMenu"><li><a href="http://www.programiz.com/c-programming/c-functions" target="_top">C Programming Functions</a></li><li><a href="http://www.programiz.com/c-programming/c-user-defined-functions" target="_top">C User-defined Functions</a></li><li><a href="http://www.programiz.com/c-programming/types-user-defined-functions">C&nbsp;Function Types</a></li><li><a href="http://www.programiz.com/c-programming/c-recursion" target="_top">C Recursion</a></li><li><a href="http://www.programiz.com/c-programming/c-storage-class" target="_top">C Storage Class</a></li><li><a href="http://www.programiz.com/c-programming/c-functions-examples" target="_top">C Function Examples</a></li></ul></li><li><h3>C Programming Arrays</h3><ul class="subMenu"><li><a href="http://www.programiz.com/c-programming/c-arrays">C Programming Arrays</a></li><li><a href="http://www.programiz.com/c-programming/c-multi-dimensional-arrays" target="_top">C Multi-dimensional Arrays</a></li><li><a href="http://www.programiz.com/c-programming/c-arrays-functions" target="_top">C Arrays &amp; Functions</a></li><li><a href="http://www.programiz.com/c-programming/c-arrays-examples" target="_top">C Arrays Examples</a></li></ul></li><li><h3>C Programming Pointers</h3><ul class="subMenu"><li><a href="http://www.programiz.com/c-programming/c-pointers" target="_top">C Programming Pointers</a></li><li><a href="http://www.programiz.com/c-programming/c-pointers-arrays" target="_top">C Pointers &amp;&nbsp;Arrays</a></li><li><a href="http://www.programiz.com/c-programming/c-pointer-functions" target="_top">C Pointers And Functions</a></li><li><a href="http://www.programiz.com/c-programming/c-dynamic-memory-allocation" target="_top">C Memory Allocation</a></li><li><a href="http://www.programiz.com/c-programming/c-pointer-examples" target="_top">C Pointer Examples</a></li></ul></li><li><h3>C Programming Strings</h3><ul class="subMenu"><li><a href="http://www.programiz.com/c-programming/c-strings">C Programming String</a></li><li><a href="http://www.programiz.com/c-programming/string-handling-functions" target="_top">C String Functions</a></li><li><a href="http://www.programiz.com/c-programming/c-string-examples">C String Examples</a></li></ul></li><li><h3>Structure And Union</h3><ul class="subMenu"><li><a href="http://www.programiz.com/c-programming/c-structures" target="_top">C Structure</a></li><li><a href="http://www.programiz.com/c-programming/c-structures-pointers" target="_top">Structures &amp;&nbsp;Pointers</a></li><li><a href="http://www.programiz.com/c-programming/c-structure-function" target="_top">C Structure &amp;&nbsp;Function</a></li><li><a href="http://www.programiz.com/c-programming/c-unions" target="_top">C Programming&nbsp;Union</a></li><li><a href="http://www.programiz.com/c-programming/c-structure-examples" target="_top">Structure Examples</a></li></ul></li><li><h3>C Programming Files</h3><ul class="subMenu"><li><a href="http://www.programiz.com/c-programming/c-file-input-output" target="_top">C Files Input/Output</a></li><li><a href="http://www.programiz.com/c-programming/c-file-examples">C Files Examples</a></li></ul></li><li><h3>Additional Topics</h3><ul class="subMenu"><li><a href="http://www.programiz.com/c-programming/c-enumeration" target="_top">C&nbsp;Enumeration</a></li><li><a href="http://www.programiz.com/c-programming/c-preprocessor-macros" target="_top">C&nbsp;Preprocessors</a></li><li><a href="http://www.programiz.com/c-programming/library-function">C Library Functions</a></li><li><a href="http://www.programiz.com/c-programming/examples">C Programming Examples</a></li></ul></li></ul></nav>  
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- medium rectangle latest -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:250px"
-     data-ad-client="ca-pub-9007421361448641"
-     data-ad-slot="3518793228"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>  
-    <section class="social"><h2>Connect With Us</h2><ul><li><a class="facebook" href="http://wwww.facebook.com/programiz">Facebook </a></li><li><a class="twitter" href="http://twitter.com/programiz">Twitter</a></li><li><a class="google" href="https://plus.google.com/+Programiz-official" title="Google+ Programiz Page">Google+</a></li></ul></section>  
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- 300 * 600 (sidebar bottom) -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:600px"
-     data-ad-client="ca-pub-9007421361448641"
-     data-ad-slot="6773310825"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>  </div>
-  </aside>
-<!-- Left sidebar Ends -->
+<!-- Left sidebar Starts --><!-- Left sidebar Ends -->
 
 <!-- Footer Right and Footer Left Starts-->
   <div class="bottom cf">
-	</div>
+  </div>
 <!-- Footer Right and Footer Left Ends-->
-</article>
-
-<footer id="footer">
-
-
-
-  <div class="footerContent"> <a href="http://www.programiz.com" class="footerLogo">Programiz - Programming Tutorial</a>
-    <ul class="navFooter">
-      <li><a href="http://www.programiz.com/about-us">About Us</a></li>
-      <li><a href="http://www.programiz.com/contact">Contact Us</a></li>
-      <li><a href="http://www.programiz.com/articles">Articles</a></li>
-      <li><a href="http://www.programiz.com/advertising">Advertise With Us</a></li>
-    </ul>
-  </div>
-  <div class="copyRight" role="contentinfo">
-    <p>Copyright © by Programiz | All rights reserved | <a href="http://www.programiz.com/privacy-policy">Privacy Policy</a></p>
-  </div>
-</footer>  <script type="text/javascript" src="http://www.programiz.com/sites/tutorial2program/files/js/js_p4XrdhRxUcPvVFVqUZka6H428DAuEmMbYhsMEYf4Zok.js"></script>
+</article><script type="text/javascript" src="http://www.programiz.com/sites/tutorial2program/files/js/js_p4XrdhRxUcPvVFVqUZka6H428DAuEmMbYhsMEYf4Zok.js"></script>
 <script type="text/javascript" src="http://www.programiz.com/sites/tutorial2program/files/js/js_RSIUCcrmRUFMf95PjTZVGDL8QH9jNpz8LNaNofgcAAc.js"></script>
 
 </body>
 </html>
+
