@@ -3,55 +3,291 @@ layout: post
 title: 조건문
 ---
 
-# Samples
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortlink" href="http://www.programiz.com/node/39" />
+<link rel="shortcut icon" href="http://www.programiz.com/sites/tutorial2program/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="http://www.programiz.com/c-programming/c-structures" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="description" content="Structure is the collection of variables of different types under a single name for better handling. Learn more about structure in C programming......" />
+<meta name="keywords" content="C Structures, C Programming Structures, Structure, Structure in C Programming" />
+  <title>C Programming Structure</title>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic,300,300italic' rel='stylesheet' type='text/css'>
+  <link type="text/css" rel="stylesheet" href="http://www.programiz.com/sites/tutorial2program/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.programiz.com/sites/tutorial2program/files/css/css_4kzIP6F54fICtbnmvAZXtqSrLmXu48ldRNbjmi6LL9Y.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.programiz.com/sites/tutorial2program/files/css/css_MnXiytJtb186Ydycnpwpw34cuUsHaKc80ey5LiQXhSY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.programiz.com/sites/tutorial2program/files/css/css_cv063AFWEN5vYokgiw30rIdwm2bqSKcxdgykautGtHI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.programiz.com/sites/tutorial2program/files/css/css_DqiuSTbynplXJ3hy5abg6z0YV95ZsETceC1DnBGkts4.css" media="screen" />
+  <script type="text/javascript" src="http://www.programiz.com/sites/tutorial2program/files/js/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js"></script>
+<script type="text/javascript" src="http://www.programiz.com/sites/tutorial2program/files/js/js_rv_BKYv7yieH0IgHddhWHDC-bWGan8yiJbusyOpr0mw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-36675496-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.programiz.com/sites/tutorial2program/files/js/js_t2LagZoPpSsWZLoLvt1JntkbR51X0BoFlsMN4kQfmHo.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"programiz","theme_token":"TVR-EQCR_i6y6D1KYU9ZG611ZIGrc88ER5rt-nln0hg","js":{"sites\/all\/libraries\/prettify\/src\/prettify.js":1,"sites\/all\/modules\/prettify\/prettify.loader.js":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/programiz\/programiz.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/programiz\/programiz.css":1,"sites\/all\/modules\/prettify\/styles\/desert.css":1}},"prettify":{"linenums":false,"match":"","nocode":"nocode","custom":[],"markup":{"code":true,"pre":true,"precode":false}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
 
-# Heading 1
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-39 node-type-c-programming" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <!-- Header starts -->
+<header id="pageHeader" class="cf" role="banner">
+<div class="headerWrapper">
+<div class="headerContent cf"> <a href="/" title="Home" >Programming Tutorials, Articles and Examples</a>
+</div>
 
-## Heading 2
+</header>
+<!-- Header end -->
 
-### Heading 3
+<!-- Main Navigation starts-->
+<nav id="mainNav" role="navigation">
+<h2>Main Menu</h2><ul class="expand"><li class="menu-227 first"><a href="/">Home</a></li>
+<li class="menu-633"><a href="/c-programming">C Programming</a></li>
+<li class="menu-568"><a href="/cpp-programming" title="C++ Programming Tutorial">C++</a></li>
+<li class="menu-1647 last"><a href="/python-programming" title="Python Programming Tutorial">Python</a></li>
+</ul></nav>
+<!-- Main Navigation ends-->
 
-#### Heading 4
+<!-- Fixed navigation slide starts
+<div class="fixedNav cf">
+  <div class="fixWrapper">
+    <div class="fixLogo">Programiz Logo</div>
+    <ul class="fixSocial">
+      <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.programiz.com/c-programming/c-structures">Share on Facebook</a></li>
+      <li><a href="https://twitter.com/share?url=http://www.programiz.com/c-programming/c-structures">Share on Twitter</a></li>
+    </ul>
+  </div>
+</div> -->
 
-##### Heading 5
+<article id="main" role="main">
+  
+<div id="content">
+	
+<!-- Content Top Starts -->	
+	<!-- Content Top Ends -->	
 
-###### Heading 6
+    
+<!-- Main Content Starts-->
+    <section class="mainContent">
+	            <h1>C Programming Structure</h1>                
+        	<div class="contentInside">
+	    	  <div class="region region-content-inside">
+      
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- programiz (new) -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-9007421361448641"
+     data-ad-slot="8228194420"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>  </div>
+ 	</div>
+				
+	 	<div class="tabs"></div>	    		       	  <div class="region region-content">
+      
+    <div id="node-39" class="node node-c-programming node-promoted clearfix">
+       
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Structure is the collection of variables of different types under a single name for better handling. For example: You want to store the information about person about his/her name, citizenship number and salary. You can create these information separately but, better approach will be collection of these information under single name because all these information are related to person.</p><h2>Structure Definition in C</h2><p>Keyword <code>struct</code> is used for creating a structure.</p><h3>Syntax of structure</h3>
+<pre>struct structure_name 
+{
+    data_type member1;
+    data_type member2;
+    .
+    .
+    data_type memeber;
+};</pre>
+<p>We can create the structure for a person as mentioned above as:</p>
+<pre>struct person
+{
+    char name[50];
+    int cit_no;
+    float salary;
+};
+</pre>
+<p>This declaration above creates the derived data type <strong><code>struct person</code></strong>.</p><h2>Structure variable declaration</h2><p>When a structure is defined, it creates a user-defined type but, no storage is allocated. For the above structure of person, variable can be declared as:</p>
+<pre>struct person
+{
+    char name[50];
+    int cit_no;
+    float salary;
+};
 
-### Body text
+Inside main function:
+<strong>struct person</strong> p1, p2, p[20];</pre>
+<p>Another way of creating sturcture variable is:</p>
+<pre>struct person
+{
+    char name[50];
+    int cit_no;
+    float salary;
+}p1 ,p2 ,p[20];
+</pre>
+<p>In both cases, 2 variables <var>p1</var>, <var>p2</var> and array <var>p</var> having 20 elements of type <strong>struct person</strong> are created.</p><h2>Accessing members of a structure</h2><p>There are two types of operators used for accessing members of a structure.</p><ol><li>Member operator(.)</li><li>Structure pointer operator(-&gt;) (will be discussed in <a href="http://www.programiz.com/c-programming/c-structures-pointers" title="Structure and Pointer">structure and pointers chapter</a>)</li></ol><p>Any member of a structure can be accessed as: <code>structure_variable_name.member_name</code></p><p>Suppose, we want to access salary for variable <var>p2</var>. Then, it can be accessed as:</p>
+<pre>p2.salary</pre>
+<h3>Example of structure</h3><p><strong>Write a C program to add two distances entered by user. Measurement of distance should be in inch and feet.(Note: 12 inches = 1 foot)</strong></p>
+<pre><code>
+#include &lt;stdio.h&gt;
+struct Distance{
+    int feet;
+    float inch;
+}d1,d2,sum;
+int main(){
+    printf("1st distance\n");
+    printf("Enter feet: ");
+    scanf("%d",&amp;d1.feet);  /* input of feet for structure variable d1 */
+    printf("Enter inch: ");
+    scanf("%f",&amp;d1.inch);  /* input of inch for structure variable d1 */
+    printf("2nd distance\n");
+    printf("Enter feet: ");
+    scanf("%d",&amp;d2.feet);  /* input of feet for structure variable d2 */
+    printf("Enter inch: ");
+    scanf("%f",&amp;d2.inch);  /* input of inch for structure variable d2 */
+    sum.feet=d1.feet+d2.feet;
+    sum.inch=d1.inch+d2.inch;
+    if (sum.inch&gt;12){  //If inch is greater than 12, changing it to feet.
+        ++sum.feet;
+        sum.inch=sum.inch-12;
+    }
+    printf("Sum of distances=%d\'-%.1f\"",sum.feet,sum.inch); 
+/* printing sum of distance d1 and d2 */
+    return 0;
+}
+</code></pre>
+<p style="text-align: left; "><strong>Output</strong></p>
+<pre><samp>1st distance
+Enter feet: 12
+Enter inch: 7.9
+2nd distance
+Enter feet: 2
+Enter inch: 9.8
+Sum of distances= 15'-5.7"</samp></pre>
+<h3>Keyword typedef while using structure</h3><p>Programmer generally <code>use typedef</code> while using structure in C language. For example:</p>
+<pre>typedef struct complex{
+  int imag;
+  float real;
+}comp;
 
-**Lorem ipsum dolor sit amet**, consectetur adipiscing elit. Quisque tempus nunc diam, non dignissim risus tincidunt a. Curabitur consequat justo vitae ipsum accumsan tempor. Quisque rhoncus eleifend ante vitae ultricies. Pellentesque suscipit nisl ut metus tincidunt, vulputate sodales dui commodo. Sed eget sapien varius, lacinia lectus nec, tempor dolor. Pellentesque sed mattis magna. Curabitur ut tristique turpis. Morbi sagittis dolor suscipit urna placerat, consectetur venenatis sapien viverra. Mauris vitae felis et sem venenatis cursus.
+Inside main:
+comp c1,c2;
+</pre>
+<p>Here, <code>typedef</code> keyword is used in creating a type <var>comp</var>(which is of type as <strong><code>struct complex</code></strong>). Then, two structure variables <var>c1</var> and <var>c2</var> are created by this <var>comp</var> type.</p><h2>Structures within structures</h2><p>Structures can be nested within other structures in C programming.</p>
+<pre>struct complex
+{
+ int imag_value;
+ float real_value;
+};
+struct number{
+   struct complex c1;
+   int real;
+}n1,n2;
+</pre>
+<p>Suppose you want to access <var>imag_value</var> for <var>n2</var> structure variable then, structure member <var><code>n1.c1.imag_value</code></var> is used.</p></div></div></div>	
+</div>
 
 
-![Image]({{ site.baseurl }}/images/cc.jpg)
+</div>
+  </div>
+       	    </section>
+<!-- Main Content Ends-->
+
+<!-- Content Bottom Starts -->
+    <div class="mainBottom">
+	    	  <div class="region region-content-bottom">
+      
+    
+<div class="chapter cf">
+	  <div class="prev"><a href="http://www.programiz.com/c-programming/c-string-examples"> ◄ Previous Page</a></div>
+  <div class="next"><a href="http://www.programiz.com/c-programming/c-structures-pointers">Next Page ► </a></div>
+</div>
+  
+    <div class="cf">
+
+<div id="mediaNetLeft">
+<script id="mNCC" language="javascript">  medianet_width='300';  medianet_height= '250';  medianet_crid='258231851';  </script>  <script id="mNSC" src="http://contextual.media.net/nmedianet.js?cid=8CU166D9L" language="javascript"></script>
+</div>
+
+<div id="mediaNetRight">
+
+<!-- MadAdsMedia.com Asynchronous Ad Tag For Programiz.com -->
+<!-- Size: 300x250 -->
+<script language="JavaScript" type="text/javascript">
+var prot = document.location.protocol;
+document.write('<script language="JavaScript" type="text/javascript"'); document.write('src="'+prot+'//ads-by.madadsmedia.com/tags/25723/10259/async/300x250.js">'); document.write('<\/scr' + 'ipt>');
+</script>
+<!-- MadAdsMedia.com Asynchronous Ad Tag For Programiz.com -->
+								
+</div>
+
+</div>  </div>
+    </div>
+
+<!-- Content Bottom Ends -->
+  </div>
+
+<!-- Left sidebar Starts -->
+  <aside id="sidebar" role="complementary">
+      <div class="region region-sidebar-left">
+      
+    <nav role="navigation"><h2>C Programming</h2><ul class="topMenu"><li><h3>C Introduction</h3><ul class="subMenu"><li><a href="http://www.programiz.com/c-programming/c-keywords-identifier" target="_top">Keywords &amp;&nbsp;Identifier</a></li><li><a href="http://www.programiz.com/c-programming/c-variables-constants" target="_top">Variables &amp;&nbsp;Constants</a></li><li><a href="http://www.programiz.com/c-programming/c-data-types" target="_top">C Data Types</a></li><li><a href="http://www.programiz.com/c-programming/c-input-output" target="_top">C Input/Output</a></li><li><a href="http://www.programiz.com/c-programming/c-operators" target="_top">C Operators</a></li><li><a href="http://www.programiz.com/c-programming/c-introduction-examples" target="_top">C Introduction Examples</a></li></ul></li><li><h3>C Flow Control</h3><ul class="subMenu"><li><a href="http://www.programiz.com/c-programming/c-if-else-statement" target="_top">C&nbsp;if...else</a></li><li><a href="http://www.programiz.com/c-programming/c-for-loop" target="_top">C for Loop</a></li><li><a href="http://www.programiz.com/c-programming/c-do-while-loops" target="_top">C do...while Loop</a></li><li><a href="http://www.programiz.com/c-programming/c-break-continue-statement" target="_top">C break and&nbsp;continue</a></li><li><a href="http://www.programiz.com/c-programming/c-switch-case-statement" target="_top">C&nbsp;switch...case</a></li><li><a href="http://www.programiz.com/c-programming/c-goto-statement">C Programming goto</a></li><li><a href="http://www.programiz.com/c-programming/c-decision-making-loops-examples" target="_top">Control Flow Examples</a></li></ul></li><li><h3>C Functions</h3><ul class="subMenu"><li><a href="http://www.programiz.com/c-programming/c-functions" target="_top">C Programming Functions</a></li><li><a href="http://www.programiz.com/c-programming/c-user-defined-functions" target="_top">C User-defined Functions</a></li><li><a href="http://www.programiz.com/c-programming/types-user-defined-functions">C&nbsp;Function Types</a></li><li><a href="http://www.programiz.com/c-programming/c-recursion" target="_top">C Recursion</a></li><li><a href="http://www.programiz.com/c-programming/c-storage-class" target="_top">C Storage Class</a></li><li><a href="http://www.programiz.com/c-programming/c-functions-examples" target="_top">C Function Examples</a></li></ul></li><li><h3>C Programming Arrays</h3><ul class="subMenu"><li><a href="http://www.programiz.com/c-programming/c-arrays">C Programming Arrays</a></li><li><a href="http://www.programiz.com/c-programming/c-multi-dimensional-arrays" target="_top">C Multi-dimensional Arrays</a></li><li><a href="http://www.programiz.com/c-programming/c-arrays-functions" target="_top">C Arrays &amp; Functions</a></li><li><a href="http://www.programiz.com/c-programming/c-arrays-examples" target="_top">C Arrays Examples</a></li></ul></li><li><h3>C Programming Pointers</h3><ul class="subMenu"><li><a href="http://www.programiz.com/c-programming/c-pointers" target="_top">C Programming Pointers</a></li><li><a href="http://www.programiz.com/c-programming/c-pointers-arrays" target="_top">C Pointers &amp;&nbsp;Arrays</a></li><li><a href="http://www.programiz.com/c-programming/c-pointer-functions" target="_top">C Pointers And Functions</a></li><li><a href="http://www.programiz.com/c-programming/c-dynamic-memory-allocation" target="_top">C Memory Allocation</a></li><li><a href="http://www.programiz.com/c-programming/c-pointer-examples" target="_top">C Pointer Examples</a></li></ul></li><li><h3>C Programming Strings</h3><ul class="subMenu"><li><a href="http://www.programiz.com/c-programming/c-strings">C Programming String</a></li><li><a href="http://www.programiz.com/c-programming/string-handling-functions" target="_top">C String Functions</a></li><li><a href="http://www.programiz.com/c-programming/c-string-examples">C String Examples</a></li></ul></li><li><h3>Structure And Union</h3><ul class="subMenu"><li><a href="http://www.programiz.com/c-programming/c-structures" target="_top">C Structure</a></li><li><a href="http://www.programiz.com/c-programming/c-structures-pointers" target="_top">Structures &amp;&nbsp;Pointers</a></li><li><a href="http://www.programiz.com/c-programming/c-structure-function" target="_top">C Structure &amp;&nbsp;Function</a></li><li><a href="http://www.programiz.com/c-programming/c-unions" target="_top">C Programming&nbsp;Union</a></li><li><a href="http://www.programiz.com/c-programming/c-structure-examples" target="_top">Structure Examples</a></li></ul></li><li><h3>C Programming Files</h3><ul class="subMenu"><li><a href="http://www.programiz.com/c-programming/c-file-input-output" target="_top">C Files Input/Output</a></li><li><a href="http://www.programiz.com/c-programming/c-file-examples">C Files Examples</a></li></ul></li><li><h3>Additional Topics</h3><ul class="subMenu"><li><a href="http://www.programiz.com/c-programming/c-enumeration" target="_top">C&nbsp;Enumeration</a></li><li><a href="http://www.programiz.com/c-programming/c-preprocessor-macros" target="_top">C&nbsp;Preprocessors</a></li><li><a href="http://www.programiz.com/c-programming/library-function">C Library Functions</a></li><li><a href="http://www.programiz.com/c-programming/examples">C Programming Examples</a></li></ul></li></ul></nav>  
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- medium rectangle latest -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-9007421361448641"
+     data-ad-slot="3518793228"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>  
+    <section class="social"><h2>Connect With Us</h2><ul><li><a class="facebook" href="http://wwww.facebook.com/programiz">Facebook </a></li><li><a class="twitter" href="http://twitter.com/programiz">Twitter</a></li><li><a class="google" href="https://plus.google.com/+Programiz-official" title="Google+ Programiz Page">Google+</a></li></ul></section>  
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 300 * 600 (sidebar bottom) -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-9007421361448641"
+     data-ad-slot="6773310825"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>  </div>
+  </aside>
+<!-- Left sidebar Ends -->
+
+<!-- Footer Right and Footer Left Starts-->
+  <div class="bottom cf">
+	</div>
+<!-- Footer Right and Footer Left Ends-->
+</article>
+
+<footer id="footer">
 
 
-Donec ornare turpis non ullamcorper pulvinar. *Integer ut mauris vehicula mauris posuere adipiscing.* Phasellus dictum cursus convallis. Sed dapibus laoreet porttitor.
 
-### Blockquotes
+  <div class="footerContent"> <a href="http://www.programiz.com" class="footerLogo">Programiz - Programming Tutorial</a>
+    <ul class="navFooter">
+      <li><a href="http://www.programiz.com/about-us">About Us</a></li>
+      <li><a href="http://www.programiz.com/contact">Contact Us</a></li>
+      <li><a href="http://www.programiz.com/articles">Articles</a></li>
+      <li><a href="http://www.programiz.com/advertising">Advertise With Us</a></li>
+    </ul>
+  </div>
+  <div class="copyRight" role="contentinfo">
+    <p>Copyright © by Programiz | All rights reserved | <a href="http://www.programiz.com/privacy-policy">Privacy Policy</a></p>
+  </div>
+</footer>  <script type="text/javascript" src="http://www.programiz.com/sites/tutorial2program/files/js/js_p4XrdhRxUcPvVFVqUZka6H428DAuEmMbYhsMEYf4Zok.js"></script>
+<script type="text/javascript" src="http://www.programiz.com/sites/tutorial2program/files/js/js_RSIUCcrmRUFMf95PjTZVGDL8QH9jNpz8LNaNofgcAAc.js"></script>
 
-> Fusce non eleifend nisi. Donec pharetra sed ipsum sit amet sollicitudin. Duis dolor ante, gravida varius neque eget, semper commodo libero. In euismod tempor lobortis. Nulla eget lectus nec enim mattis aliquet a sit amet est.
-
-## List Types
-
-### Lists
-
-1. Item One
-   1. sub one
-   2. sub two
-   3. sub three
-2. Item Two
-
-* Uno
-* Dos
-* Tres
-
-
-
-## Code
-
-{% highlight python %}
-class node:
-	def __init__(self, data, next=None):
-		self.data = data
-		self.next = next
-{% endhighlight %}
+</body>
+</html>
