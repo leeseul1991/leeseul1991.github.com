@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  연산자
+title:  함수
 date:   2014-10-25 19:55:16
 categories: jekyll update
 ---
