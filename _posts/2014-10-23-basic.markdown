@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 전처리와 입출력
+title: 전처리기문
 ---
 
 # Samples
