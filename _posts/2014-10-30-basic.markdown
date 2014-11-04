@@ -3,195 +3,28 @@ layout: post
 title: 조건문
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="shortlink" href="http://www.programiz.com/node/39" />
-<link rel="shortcut icon" href="http://www.programiz.com/sites/tutorial2program/files/favicon.ico" type="image/vnd.microsoft.icon" />
-<link rel="canonical" href="http://www.programiz.com/c-programming/c-structures" />
-<meta name="generator" content="Drupal 7 (http://drupal.org)" />
-<meta name="description" content="Structure is the collection of variables of different types under a single name for better handling. Learn more about structure in C programming......" />
-<meta name="keywords" content="C Structures, C Programming Structures, Structure, Structure in C Programming" />
-  <title>C Programming Structure</title>
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic,300,300italic' rel='stylesheet' type='text/css'>
-  <link type="text/css" rel="stylesheet" href="http://www.programiz.com/sites/tutorial2program/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css" media="all" />
-<link type="text/css" rel="stylesheet" href="http://www.programiz.com/sites/tutorial2program/files/css/css_4kzIP6F54fICtbnmvAZXtqSrLmXu48ldRNbjmi6LL9Y.css" media="all" />
-<link type="text/css" rel="stylesheet" href="http://www.programiz.com/sites/tutorial2program/files/css/css_MnXiytJtb186Ydycnpwpw34cuUsHaKc80ey5LiQXhSY.css" media="all" />
-<link type="text/css" rel="stylesheet" href="http://www.programiz.com/sites/tutorial2program/files/css/css_cv063AFWEN5vYokgiw30rIdwm2bqSKcxdgykautGtHI.css" media="all" />
-<link type="text/css" rel="stylesheet" href="http://www.programiz.com/sites/tutorial2program/files/css/css_DqiuSTbynplXJ3hy5abg6z0YV95ZsETceC1DnBGkts4.css" media="screen" />
-  <script type="text/javascript" src="http://www.programiz.com/sites/tutorial2program/files/js/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js"></script>
-<script type="text/javascript" src="http://www.programiz.com/sites/tutorial2program/files/js/js_rv_BKYv7yieH0IgHddhWHDC-bWGan8yiJbusyOpr0mw.js"></script>
-<script type="text/javascript">
-<!--//--><![CDATA[//><!--
-var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-36675496-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
-//--><!]]>
-</script>
-<script type="text/javascript" src="http://www.programiz.com/sites/tutorial2program/files/js/js_t2LagZoPpSsWZLoLvt1JntkbR51X0BoFlsMN4kQfmHo.js"></script>
-<script type="text/javascript">
-<!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"programiz","theme_token":"TVR-EQCR_i6y6D1KYU9ZG611ZIGrc88ER5rt-nln0hg","js":{"sites\/all\/libraries\/prettify\/src\/prettify.js":1,"sites\/all\/modules\/prettify\/prettify.loader.js":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/programiz\/programiz.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/programiz\/programiz.css":1,"sites\/all\/modules\/prettify\/styles\/desert.css":1}},"prettify":{"linenums":false,"match":"","nocode":"nocode","custom":[],"markup":{"code":true,"pre":true,"precode":false}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
-//--><!]]>
-</script>
+# (if~else, switch, case)
 
-</head>
-<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-39 node-type-c-programming" >
-<!-- Header starts --><!-- Header end -->
 
-<!-- Main Navigation starts--><!-- Main Navigation ends-->
+## 1. if~else
 
-<!-- Fixed navigation slide starts
-<div class="fixedNav cf">
-  <div class="fixWrapper">
-    <div class="fixLogo">Programiz Logo</div>
-    <ul class="fixSocial">
-      <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.programiz.com/c-programming/c-structures">Share on Facebook</a></li>
-      <li><a href="https://twitter.com/share?url=http://www.programiz.com/c-programming/c-structures">Share on Twitter</a></li>
-    </ul>
-  </div>
-</div> -->
+우리가 배울 제어문이란 말 그대로 프로그램의 실행 흐름을 제어하며 C언어에서는 조건문과 반복문을 제공합니다. 조건문은 우리가 특정 조건을 부여하고 그 조건이 만족하면 해당 문장을 수행할수 있는 문법입니다. 이 조건이 참(TRUE)이면 if문 내의 코드를 실행하며 거짓(FALSE)이면 if문 내의 코드를 실행하지 않고 그냥 넘겨버립니다. 조건은 수식으로 주어집니다. if 문의 구조를 보시면 다음과 같습니다.
 
-<article id="main" role="main">
-  <div id="content">
-    <section class="mainContent">
-      <h1>C Programming Structure</h1>                
-        	<div class="contentInside">
-	    	  <div class="region region-content-inside">
-      
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- programiz (new) -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-9007421361448641"
-     data-ad-slot="8228194420"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>  </div>
- 	</div>
-				
-	 	<div class="tabs"></div>	    		       	  <div class="region region-content">
-      
-    <div id="node-39" class="node node-c-programming node-promoted clearfix">
-       
-  <div class="content">
-    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Structure is the collection of variables of different types under a single name for better handling. For example: You want to store the information about person about his/her name, citizenship number and salary. You can create these information separately but, better approach will be collection of these information under single name because all these information are related to person.</p><h2>Structure Definition in C</h2><p>Keyword <code>struct</code> is used for creating a structure.</p><h3>Syntax of structure</h3>
-<pre>struct structure_name 
-{
-    data_type member1;
-    data_type member2;
-    .
-    .
-    data_type memeber;
-};</pre>
-<p>We can create the structure for a person as mentioned above as:</p>
-<pre>struct person
-{
-    char name[50];
-    int cit_no;
-    float salary;
-};
-</pre>
-<p>This declaration above creates the derived data type <strong><code>struct person</code></strong>.</p><h2>Structure variable declaration</h2><p>When a structure is defined, it creates a user-defined type but, no storage is allocated. For the above structure of person, variable can be declared as:</p>
-<pre>struct person
-{
-    char name[50];
-    int cit_no;
-    float salary;
-};
-
-Inside main function:
-<strong>struct person</strong> p1, p2, p[20];</pre>
-<p>Another way of creating sturcture variable is:</p>
-<pre>struct person
-{
-    char name[50];
-    int cit_no;
-    float salary;
-}p1 ,p2 ,p[20];
-</pre>
-<p>In both cases, 2 variables <var>p1</var>, <var>p2</var> and array <var>p</var> having 20 elements of type <strong>struct person</strong> are created.</p><h2>Accessing members of a structure</h2><p>There are two types of operators used for accessing members of a structure.</p><ol><li>Member operator(.)</li><li>Structure pointer operator(-&gt;) (will be discussed in <a href="http://www.programiz.com/c-programming/c-structures-pointers" title="Structure and Pointer">structure and pointers chapter</a>)</li></ol><p>Any member of a structure can be accessed as: <code>structure_variable_name.member_name</code></p><p>Suppose, we want to access salary for variable <var>p2</var>. Then, it can be accessed as:</p>
-<pre>p2.salary</pre>
-<h3>Example of structure</h3><p><strong>Write a C program to add two distances entered by user. Measurement of distance should be in inch and feet.(Note: 12 inches = 1 foot)</strong></p>
-<pre><code>
-#include &lt;stdio.h&gt;
-struct Distance{
-    int feet;
-    float inch;
-}d1,d2,sum;
-int main(){
-    printf("1st distance\n");
-    printf("Enter feet: ");
-    scanf("%d",&amp;d1.feet);  /* input of feet for structure variable d1 */
-    printf("Enter inch: ");
-    scanf("%f",&amp;d1.inch);  /* input of inch for structure variable d1 */
-    printf("2nd distance\n");
-    printf("Enter feet: ");
-    scanf("%d",&amp;d2.feet);  /* input of feet for structure variable d2 */
-    printf("Enter inch: ");
-    scanf("%f",&amp;d2.inch);  /* input of inch for structure variable d2 */
-    sum.feet=d1.feet+d2.feet;
-    sum.inch=d1.inch+d2.inch;
-    if (sum.inch&gt;12){  //If inch is greater than 12, changing it to feet.
-        ++sum.feet;
-        sum.inch=sum.inch-12;
-    }
-    printf("Sum of distances=%d\'-%.1f\"",sum.feet,sum.inch); 
-/* printing sum of distance d1 and d2 */
-    return 0;
+{% highlight ruby %}
+if (조건문) {
+ 조건식이 만족되면 실행될 문장;
 }
-</code></pre>
-<p style="text-align: left; "><strong>Output</strong></p>
-<pre><samp>1st distance
-Enter feet: 12
-Enter inch: 7.9
-2nd distance
-Enter feet: 2
-Enter inch: 9.8
-Sum of distances= 15'-5.7"</samp></pre>
-<h3>Keyword typedef while using structure</h3><p>Programmer generally <code>use typedef</code> while using structure in C language. For example:</p>
-<pre>typedef struct complex{
-  int imag;
-  float real;
-}comp;
+{% endhighlight %}
 
-Inside main:
-comp c1,c2;
-</pre>
-<p>Here, <code>typedef</code> keyword is used in creating a type <var>comp</var>(which is of type as <strong><code>struct complex</code></strong>). Then, two structure variables <var>c1</var> and <var>c2</var> are created by this <var>comp</var> type.</p><h2>Structures within structures</h2><p>Structures can be nested within other structures in C programming.</p>
-<pre>struct complex
-{
- int imag_value;
- float real_value;
-};
-struct number{
-   struct complex c1;
-   int real;
-}n1,n2;
-</pre>
-<p>Suppose you want to access <var>imag_value</var> for <var>n2</var> structure variable then, structure member <var><code>n1.c1.imag_value</code></var> is used.</p></div></div></div>	
-</div>
+조건문에 오는건 반드시 참(true) 혹은 거짓(false)이여야 하며, 주로 논리 연산자와 비교 연산자 등이 조건문에 쓰입니다. if문을 사용하기 전, 간단한 비교 연산자부터 짚고 넘어가도록 하겠습니다. 한번 아래의 표를 봅시다.
 
 
-</div>
-  </div>
-    </section>
-<!-- Main Content Ends-->
 
-<!-- Content Bottom Starts --><!-- Content Bottom Ends -->
-  </div>
 
-<!-- Left sidebar Starts --><!-- Left sidebar Ends -->
 
-<!-- Footer Right and Footer Left Starts-->
-  <div class="bottom cf">
-  </div>
-<!-- Footer Right and Footer Left Ends-->
-</article><script type="text/javascript" src="http://www.programiz.com/sites/tutorial2program/files/js/js_p4XrdhRxUcPvVFVqUZka6H428DAuEmMbYhsMEYf4Zok.js"></script>
-<script type="text/javascript" src="http://www.programiz.com/sites/tutorial2program/files/js/js_RSIUCcrmRUFMf95PjTZVGDL8QH9jNpz8LNaNofgcAAc.js"></script>
 
-</body>
-</html>
 
+
+
+{% highlight ruby %}
+{% endhighlight %}
