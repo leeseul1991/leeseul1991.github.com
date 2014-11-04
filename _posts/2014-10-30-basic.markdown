@@ -156,9 +156,9 @@ const int A = 66;
 <table>
 <thead>
 <tr>
-<th>column</th>
-<th>column</th>
-<th>column</th>
+<th>접미사</th>
+<th>자료형</th>
+<th>사용예</th>
 </tr>
 </thead>
 <tbody>
