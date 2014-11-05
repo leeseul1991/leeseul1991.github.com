@@ -17,6 +17,7 @@ layout: page
 <h2>     우리함께 열심히 <font color="red"><b>C언어</b></font>를 공부해보아요.</h2>
 <br></br>
 <h3>     교수님 사랑합니다<font color="red">♥</font></h3>
+<h3> 학습도중질문사항이 있으시면 언제든지 메일 or 좌측하단 블로그에 글 남겨주시면 실시간으로 답변해드립니다.</h3>
 <br></br>
 </div>
 
