@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: MenuFont; 
+	src: url('font/tutano.ttf');
+}
+#logo {
+	width:150px;
+	height:120px;
+	text-indent:-9999px;
+	background-image:url(image/logo2.png);
+	background-repeat:no-repeat;
+	margin-top:3px;
+	margin-right:auto;
+	margin-bottom:0px;
+	margin-left:auto;
+}
+#font_style {
+	font-family: MenuFont;
+}
+.dot ul
+{
+	margin:0px;
+	padding:0px;
+}
+.dot ul li
+{
+    list-style:none; 
+	list-style-type:none; 
+} 
+ul.ct {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* -------------------------- Footer --------------------------------------- */
+#foot_cr {
+	padding-left: 5px;
+	padding-bottom: 10px;
+	text-decoration:none;
+	font-size:x-small;
+	font-family:verdana;
+}
+#foot_info {
+	text-decoration: none;
+	padding-top: 10px;
+	padding-left: 5px;
+	font-size:8pt;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.foot_style {
+	background-color:#ddd;
+	margin-bottom: 0px;
+}
+.sbox_style {
+	margin: 12px;
+}
+/* ------------------------------------------------------------------------ */
+
+
+/* -------------------------- Collage ------------------------------------- */
+.Collage{
+	/* define how much padding you want in between your images */
+    padding: 12px;
+	margin: 10px;
+}
+.Collage img{
+	/* ensures padding at the bottom of the image is correct */
+    vertical-align:bottom;
+    /* hide the images until the plugin has run. the plugin will reveal the images*/
+    opacity:50;
+	border:solid;
+	border-width: 6px;
+	border-color: #ddd;
+}
+$('.Collage').collagePlus();
+$(window).load(function () {
+	$('.Collage').collagePlus();
+});
+$('.Collage').removeWhitespace().collagePlus();
+/* ------------------------------------------------------------------------ */
+
+
+/* -------------------------- Main Img ------------------------------------ */
+#i1 {
+}
+/* ------------------------------------------------------------------------ */
