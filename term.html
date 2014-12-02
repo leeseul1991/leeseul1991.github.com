@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+<link rel="stylesheet" href="themes/green.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile.structure-1.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+
+<style type="text/css">
+#logo{
+width:122px;
+height:107px;
+text-indent:-9999px;
+background-image:url(logo.png);
+background-repeat:no-repeat;
+margin-top:10px;
+margin-right:auto;
+margin-bottom:10px;
+margin-left:auto;
+}
+.title_style{
+	color:#3f3c30;
+	padding-top:10px;
+}
+.dot ul
+{
+	margin:0px;
+	padding:0px;
+}
+.dot ul li
+{
+    list-style:none; 
+	list-style-type:none; 
+} 
+ul.ct {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+      }	
+</style>
+
+</head>
+
+<body>
+
+<div data-role="page" id="page">
+  <div data-role="header" data-theme="a" data-position="fixed">
+  	<h2 id="logo">dafarm</h2>
+	<nav data-role="navbar">
+	    <ul>
+    	<li><a href="#">Event</a></li>
+    	<li><a href="#">Best</a></li>
+    	<li><a href="#">Help</a></li>
+    	<li><a href="#">MyPage</a></li>
+  </div>
+
+  
+  <div data-role="content">
+    <h2>메인화면</h2>
+    
+    <div class="ui-body ui-body-a">
+    <div class="dot">
+      
+      <div data-role="content" data-inset="true">
+      <ul class="ct">
+          <li><a href="#page2">
+          	<img src="flower.png" alt="" class"ui-li-thumb"/>
+          </a></li>
+          <li><a href="#page3">
+          	<img src="fruit.png" alt="" class"ui-li-thumb"/>
+          </a></li>
+          <li><a href="#page4">
+          	<img src="vegetable.png" alt="" class"ui-li-thumb"/>
+          </a></li>
+          <li><a href="#page5">
+          	<img src="seed.png" alt="" class"ui-li-thumb"/>
+          </a></li>
+          </ul>
+      </div>
+      </div>
+    </div>
+    <!-- /body-a --> 
+    
+  </div>
+  <div data-role="footer">
+    <h4>페이지 바닥글</h4>
+  </div>
+</div>
+
+
+
+<div data-role="page" id="page2">
+  <div data-role="header">
+    <h1>2페이지</h1>
+  </div>
+  <div data-role="content"> 내용 </div>
+  <div data-role="footer">
+    <h4>페이지 바닥글</h4>
+  </div>
+</div>
+
+
+
+<div data-role="page" id="page3">
+  <div data-role="header">
+    <h1>3페이지</h1>
+  </div>
+  <div data-role="content"> 내용 </div>
+  <div data-role="footer">
+    <h4>페이지 바닥글</h4>
+  </div>
+</div>
+
+
+
+<div data-role="page" id="page4">
+  <div data-role="header">
+    <h1>4페이지</h1>
+  </div>
+  <div data-role="content"> 내용 </div>
+  <div data-role="footer">
+    <h4>페이지 바닥글</h4>
+  </div>
+</div>
+
+
+<div data-role="page" id="page5">
+  <div data-role="header">
+    <h1>5페이지</h1>
+  </div>
+  <div data-role="content"> 내용 </div>
+  <div data-role="footer">
+    <h4>페이지 바닥글</h4>
+  </div>
+</div>
+
+</body>
+</html>
