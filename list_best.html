@@ -1,83 +1,48 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>listview demo</title>
-  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>listview demo</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-
-  <link rel="stylesheet" href="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-  <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-  <script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
 <div data-role="page" id="page1">
-  <div data-role="header">
-    <h1>jQuery Mobile Example</h1>
-  </div>
-<div class="content-primary">    
- <ul data-role="listview"> 
-     <li><a href="index.html"> 
-         <img src="http://jquerymobile.com/demos/1.0b1/docs/lists/images/album-bb.jpg" /> 
-         <h3>Broken Bells</h3> 
-         <p>Broken Bells</p> 
-     </a></li> 
-     <li><a href="index.html"> 
-         <img src="http://jquerymobile.com/demos/1.0b1/docs/lists/images/album-hc.jpg" /> 
-         <h3>Warning</h3> 
-         <p>Hot Chip</p> 
-     </a></li> 
-     <li><a href="index.html"> 
-         <img src="http://jquerymobile.com/demos/1.0b1/docs/lists/images/album-p.jpg" /> 
-         <h3>Wolfgang Amadeus Phoenix</h3> 
-         <p>Phoenix</p> 
-     </a></li> 
-     <li><a href="index.html"> 
-         <img src="http://jquerymobile.com/demos/1.0b1/docs/lists/images/album-ok.jpg" /> 
-         <h3>Of The Blue Colour Of The Sky</h3> 
-         <p>Ok Go</p> 
-     </a></li> 
-     <li><a href="index.html"> 
-         <img src="http://jquerymobile.com/demos/1.0b1/docs/lists/images/album-ws.jpg" /> 
-         <h3>Elephant</h3> 
-         <p>The White Stripes</p> 
-     </a></li> 
-     <li><a href="index.html"> 
-         <img src="http://jquerymobile.com/demos/1.0b1/docs/lists/images/album-rh.jpg" /> 
-         <h3>Kid A</h3> 
-         <p>Radiohead</p> 
-     </a></li> 
-     <li><a href="index.html"> 
-         <img src="http://jquerymobile.com/demos/1.0b1/docs/lists/images/album-xx.jpg" /> 
-         <h3>XX</h3> 
-         <p>XX</p> 
-     </a></li> 
-     <li><a href="index.html"> 
-         <img src="http://jquerymobile.com/demos/1.0b1/docs/lists/images/album-mg.jpg" /> 
-         <h3>Congratulations</h3> 
-         <p>MGMT</p> 
-     </a></li> 
-     
-     <li><a href="index.html"> 
-         <img src="http://jquerymobile.com/demos/1.0b1/docs/lists/images/album-ag.jpg" /> 
-         <h3>Ashes Grammar</h3> 
-         <p>A Sunny Day in Glasgow</p> 
-     </a></li> 
-     
-     <li><a href="index.html"> 
-         <img src="http://jquerymobile.com/demos/1.0b1/docs/lists/images/album-k.jpg" /> 
-         <h3>Hot Fuss</h3> 
-         <p>Killers</p> 
-     </a></li> 
-     <li><a href="index.html">    
-         <img src="http://jquerymobile.com/demos/1.0b1/docs/lists/images/album-af.jpg" /> 
-         <h3>The Suburbs</h3> 
-         <p>Arcade Fire</p> 
-     </a></li> 
- </ul> 
- </div><!--/content-primary -->      <div>
- 
+<div data-role="header">
+  <h1>베스트 상품</h1>
+</div>
+<div class="content-primary">
+  <form>
+    <ol data-role="listview" data-inset="true">
+      <li><a href="index.html"> <img src="image/이미지/과일/감귤.jpg" />
+        <h3>감귤 5Kg (크기 혼합)</h3>
+        <p>제주 서귀포 박동국님</p>
+        </a></li>
+      <li><a href="index.html"> <img src="image/이미지/과일/밤.jpg" />
+        <h3>고소한 밤 (옵션선택)</h3>
+        <p>경남 하동 이원기님</p>
+        </a></li>
+      <li><a href="index.html"> <img src="image/이미지/과일/황금향.jpg" />
+        <h3>제주 황금향 3kg,5kg</h3>
+        <p>제주 한경면 부성훈님</p>
+        </a></li>
+      <li><a href="index.html"> <img src="image/이미지/김치/갓.jpg" />
+        <h3>무농약 갓김치</h3>
+        <p>전남 여수 박영심님</p>
+        </a></li>
+      <li><a href="index.html"> <img src="image/이미지/가공식품/명이절임.jpg" />
+        <h3>명이절임/부지절임</h3>
+        <p>경북 울릉군 김승환님</p>
+        </a></li>
+    </ol>
+  </form>
+</div>
+<!--/content-primary -->
+<div>
 </body>
 </html>
