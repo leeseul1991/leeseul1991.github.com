@@ -1,138 +1,281 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>listview demo</title>
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-<link rel="stylesheet" href="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; target-densitydpi=medium-dpi;" />
+<title>다팜</title>
+<link rel="stylesheet" href="src/jquery.mobile-1.4.5.min.css" />
+<script src="src/jquery-1.11.1.min.js"></script>
+<script src="src/jquery.mobile-1.4.5.min.js"></script>
+<script src="slider/ninja-slider.js" type="text/javascript"></script>
+<link href="slider/ninja-slider.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="src/style.css" />
+<link rel="stylesheet" type="text/css" href="src/snap.css" />
+<link rel="stylesheet" type="text/css" href="src/assets/demo.css" />
+<script src="src/snap.js"></script>
 </head>
 
 <body>
-<div data-role="page" id="page1">
-<div data-role="header">
-  <h1>산지 농산물</h1>
-</div>
+<div id="content" class="snap-content">
+  <div data-role="header">
+    <table width="100%" class="main_table">
+      <tr>
+        <td width="5%" align="left"><div id="toolbar"> <a href="#" id="open-left"></a></div></td>
+        <td width="*" align="center" valign="bottom"><a href="index.html" target="_self">
+          <h1>DAFARM</h1>
+          </a></td>
+        <td width="5%" align="right" valign="bottom"><img src="src/images/search.png" 
+				width="32" height="auto"></td>
+      </tr>
+    </table>
+    <nav data-role="navbar">
+      <ul >
+        <li><a href="event.html" target="_self"><img src='image/icon/event_white.png' 
+				onmouseover="this.src='image/icon/event_white.png';" 
+				onmouseout="this.src='image/icon/event_white.png';" /></a></li>
+        <li><a href="list_best.html" target="_self"><img src='image/icon/bestww.png' 
+				onmouseover="this.src='image/icon/bestww.png';" 
+				onmouseout="this.src='image/icon/bestww.png';" /></a></li>
+        <li><a href="help.html" target="_self"><img src='image/icon/help_white.png' 
+				onmouseover="this.src='image/icon/help_white.png';" 
+				onmouseout="this.src='image/icon/help_white.png';" /></a></li>
+        <li><a href="mypage.html" target="_self"><img src='image/icon/user_white.png' 
+				onmouseover="this.src='image/icon/user_white.png';" 
+				onmouseout="this.src='image/icon/user_white.png';" /></a></li>
+      </ul>
+    </nav>
+  </div>
 
-<div class="content-primary">
-  <ul data-role="listview">
-    <li><a href="index.html"> <img src="image/이미지/채소/당근.jpg" />
-      <h3>유기농 흙당근3kg</h3>
-      <p>전남 무안 이정옥님</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/둥근마.jpg" />
-      <h3>둥근마 특품 3Kg</h3>
-      <p>경기 양평 이찬구님</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/미나리.jpg" />
-      <h3>유기농 미나리 600g</h3>
-      <p>경기 수원 고기성님</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/미니단호박.jpg" />
-      <h3>무농약 미니단호박 2Kg</h3>
-      <p>충남 홍성 장대진님</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/미니파프리카.jpg" />
-      <h3>무농약 미니파프리카 1Kg</h3>
-      <p>강원도 화천 안수민님</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/버터넛호박.jpg" />
-      <h3>버터넛 호박3.5kg</h3>
-      <p>전남 무안 박종학님</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/부추.jpg" />
-      <h3>부추 1Kg</h3>
-      <p>경기 연천 안재희님</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/브로콜리.jpg" />
-      <h3>브로콜리 2kg (5-7개)</h3>
-      <p>제주 고권철님</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/비트.jpg" />
-      <h3>비트 5kg (10-17개)</h3>
-      <p>제주 고권철</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/알로에.jpg" />
-      <h3>무농약 알로에 3kg(3-5개)</h3>
-      <p>거제 윤강규님</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/여주.jpg" />
-      <h3>건여주 500g</h3>
-      <p>전북 전주 이정훈님</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/오이.jpg" />
-      <h3>무농약 오이</h3>
-      <p>경북 구미 이순애님</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/옥수수.jpg" />
-      <h3>알록이 옥수수</h3>
-      <p>경북 군위님</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/우엉.jpg" />
-      <h3>무농약 우엉</h3>
-      <p>경남 진주 이정도님</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/적채.jpg" />
-      <h3>적채 4Kg</h3>
-      <p>제주 고권철님</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/절임배추.jpg" />
-      <h3>절임배추 특품(3-4포기)</h3>
-      <p>경북 영주 채운영농조합</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/채소묶음.jpg" />
-      <h3>싱싱채소묶음</h3>
-      <p>제주 고권철님</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/케일.jpg" />
-      <h3>무농약 녹즙용 야채 케일750g</h3>
-      <p>경기 광주 서두진님</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/콩나물.jpg" />
-      <h3>무농약 콩나물</h3>
-      <p>전북 전주 콩나물영농조합</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/파프리카.jpg" />
-      <h3>파프리카 3kg</h3>
-      <p>경북 구미 정세화님</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/호박고구마.jpg" />
-      <h3>호박고구마 3Kg</h3>
-      <p>전남 해남 이레농원님</p>
-      </a></li>
-      
-    <li><a href="index.html"> <img src="image/이미지/채소/히카마.jpg" />
-      <h3>히카마 5kg</h3>
-      <p>경북 영천 김병철님</p>
-      </a></li>
-      
-   </ul>
+
+  <div data-role="content">
+
+
+
+    <div class="당근">
+      <h1 align="center" style="color: white;"><br>
+        당근 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">전남 무안 이정옥님</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div class="미나리">
+      <h1 align="center" style="color: white;"><br>
+        미나리 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">경기 수원 고기성님</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div class="미니단호박">
+      <h1 align="center" style="color: white;"><br>
+        미니단호박 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">충남 홍성 장대진님</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div class="미니파프리카">
+      <h1 align="center" style="color: white;"><br>
+        미니파프리카 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">강원도 화천 안수민님</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div class="버터넛호박">
+      <h1 align="center" style="color: white;"><br>
+        버터넛호박 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">전남 무안 박종학님</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div class="부추">
+      <h1 align="center" style="color: white;"><br>
+        부추 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">경기 연천 안재희님</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div class="브로콜리">
+      <h1 align="center" style="color: white;"><br>
+        브로콜리 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">제주 고권철님</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div class="비트">
+      <h1 align="center" style="color: white;"><br>
+        비트 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">제주 고권철님</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div class="알로에">
+      <h1 align="center" style="color: white;"><br>
+        알로에 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">거제 윤강규님</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div class="여주">
+      <h1 align="center" style="color: white;"><br>
+        여주 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">전북 전주 이정훈님</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div class="오이">
+      <h1 align="center" style="color: white;"><br>
+        오이 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">경북 구미 이순애님</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div class="옥수수">
+      <h1 align="center" style="color: white;"><br>
+        옥수수 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">경북 군위</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div class="우엉">
+      <h1 align="center" style="color: white;"><br>
+        우엉 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">경남 진주 이정도님</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div class="적채">
+      <h1 align="center" style="color: white;"><br>
+        적채 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">제주 고권철님</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div class="절임배추">
+      <h1 align="center" style="color: white;"><br>
+        절임배추 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">경북 영주 채움영농조합</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div class="채소묶음">
+      <h1 align="center" style="color: white;"><br>
+        채소묶음 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">제주 고권철님</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div class="케일">
+      <h1 align="center" style="color: white;"><br>
+        케일 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">경기 광주 서두진님</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div class="콩나물">
+      <h1 align="center" style="color: white;"><br>
+        콩나물 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">전북 전주 콩나물영농조합</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div class="파프리카">
+      <h1 align="center" style="color: white;"><br>
+        파프리카 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">경북 구미 정세화님</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div class="호박고구마">
+      <h1 align="center" style="color: white;"><br>
+        호박고구마 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">전남 해남 이레농원</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div class="히카마">
+      <h1 align="center" style="color: white;"><br>
+        히카마 </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">경북 영천 김병철님</a></div>
+    </div>
+    <div style="height:20px"></div>
+
+
+
+
+
+    
+  </div>
 </div>
-<!--/content-primary -->
-<div>
+<div class="snap-drawers">
+  <div class="snap-drawer snap-drawer-left">
+    <div align="center"> <a href="index.html" target="_self"><img src="image/logo2.png"></a></div>
+    <h4>Menu</h4>
+    <ul>
+      <li><a href="event.html" target="_self">Event</a></li>
+      <li><a href="list_best.html" target="_self">Best</a></li>
+      <li><a href="help2.html" target="_self">Help</a></li>
+      <li><a href="expand.html" target="_self">Mypage</a></li>
+    </ul>
+    <h4>SHOP</h4>
+    <ul>
+      <li><a href="list_fruit.html" target="_self">Fruit</a></li>
+      <li><a href="list_vegetable.html" target="_self">Vegetable</a></li>
+      <li><a href="list_kimchi.html" target="_self">Kimchi</a></li>
+      <li><a href="list_nut.html" target="_self">Nut</a></li>
+      <li><a href="list_food.html" target="_self">Food</a></li>
+    </ul>
+  </div>
+</div>
+</div>
+<script type="text/javascript" src="src/snap.js"></script> 
+<script type="text/javascript" src="src/assets/demo.js"></script> 
+<script type="text/javascript">
+			var snapper = new Snap({
+				element: document.getElementById('content'),
+				disable: 'right'
+			});
+	</script>
 </body>
 </html>
