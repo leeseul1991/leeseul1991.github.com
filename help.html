@@ -1,103 +1,48 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<title>다팜</title>
-<link rel="stylesheet" href="src/jquery.mobile-1.4.5.min.css" />
-<script src="src/jquery-1.11.1.min.js"></script>
-<script src="src/jquery.mobile-1.4.5.min.js"></script>
-<script src="slider/ninja-slider.js" type="text/javascript"></script>
-<link href="slider/ninja-slider.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" type="text/css" href="src/style.css" />
-<link rel="stylesheet" type="text/css" href="src/help_style.css" />
-<link rel="stylesheet" type="text/css" href="src/snap.css" />
-<link rel="stylesheet" type="text/css" href="src/assets/demo.css" />
-<script src="src/snap.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>listview demo</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
-
 <body>
-<div id="content" class="snap-content">
-	<div data-role="header">
-		<table width="100%" class="main_table">
-			<tr>
-				<td width="5%" align="left">
-					<div id="toolbar"> <a href="#" id="open-left"></a></div>
-				</td>
-				<td width="*" align="center" valign="bottom"><h1>DAFARM</h1></td>
-				<td width="5%" align="right" valign="bottom"><img src="src/images/search.png" 
-				width="32" height="auto"></td>
-			</tr>
-		</table>
-		<nav data-role="navbar">
-			<ul >
-				<li><a href="event.html"><img src='image/icon/event_white.png' 
-				onmouseover="this.src='image/icon/event_white.png';" 
-				onmouseout="this.src='image/icon/event_white.png';" /></a></li>
-				<li><a href="#"><img src='image/icon/bestww.png' 
-				onmouseover="this.src='image/icon/bestww.png';" 
-				onmouseout="this.src='image/icon/bestww.png';" /></a></li>
-				<li><a href="help.html"><img src='image/icon/help_white.png' 
-				onmouseover="this.src='image/icon/help_white.png';" 
-				onmouseout="this.src='image/icon/help_white.png';" /></a></li>
-				<li><a href="mypage.html"><img src='image/icon/user_white.png' 
-				onmouseover="this.src='image/icon/user_white.png';" 
-				onmouseout="this.src='image/icon/user_white.png';" /></a></li>
-			</ul>
-		</nav>
-	</div>
-	<div data-role="content">
-		<div class="help_menu">
-			<div class="help_notice">
-				<ul>
-				<li><a href="help.html" data-rel="dialog">1. 공지사항</a></li>
-				<li><a href="help.html" data-rel="dialog">2. QnA</a></li>
-				<li><a href="help.html" data-rel="dialog">3. FAQ</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="help_icon">
-			<h1>Contact Us</h1>
-			<a href="#"><img src="image/icon2/call.png" ></a>
-			<a href="#"><img src="image/icon2/mail.png"></a>
-			<a href="#"><img src="image/icon2/map.png"></a>
-		</div>
-		<div class="help_icon">
-			<h1>SNS Share</h1>
-			<a href="#"><img src="image/icon2/kakao.png"></a>
-			<a href="#"><img src="image/icon2/twt.png"></a>
-			<a href="#"><img src="image/icon2/fb.png"></a>
-			<a href="#"><img src="image/icon2/inst.png"></a>
-		</div>
-	</div>
+<div data-role="page" id="page1">
+<div data-role="header">
+  <h1>고객센터</h1>
 </div>
-	<div class="snap-drawers">
-	<div class="snap-drawer snap-drawer-left">
-		<div align="center"><img src="image/logo2.png"></div>
-			<h4>Menu</h4>
-			<ul>
-				<li><a href="skinnyThreshold.html">Event</a></li>
-				<li><a href="toggles.html">Best</a></li>
-				<li><a href="classNames.html">Help</a></li>
-				<li><a href="expand.html">Mypage</a></li>
-			</ul>
-			<h4>SHOP</h4>
-			<ul>
-				<li><a href="default.html">Fruit</a></li>
-				<li><a href="noDrag.html">Vagetable</a></li>
-				<li><a href="dragElement.html">Kimchi</a></li>
-				<li><a href="rightDisabled.html">Nut</a></li>
-				<li><a href="hyperextend.html">Food</a></li>
-			</ul>
-		</div>
-	</div>
-	</div>
-<script type="text/javascript" src="src/snap.js"></script> 
-<script type="text/javascript" src="src/assets/demo.js"></script> 
-<script type="text/javascript">
-			var snapper = new Snap({
-				element: document.getElementById('content'),
-				disable: 'right'
-			});
-	</script> 
+<div class="content-primary">
+  <form>
+    <h2>Help</h2>
+    <ul data-role="listview" data-inset="true">
+      <li><a href="index.html">공지사항</a></li>
+      <li><a href="index.html">FAQ</a></li>
+<!-- Q&A라고 작성할 경우 소스코드에 영향을 주어 QnA로 작성 -->
+      <li><a href="index.html">QnA</a></li>
+    </ul>
+    
+    <h2>Contact Us</h2>
+    <ul data-role="listview" data-inset="true">
+      <li><a href="index.html">메일 보내기</a></li>
+      <li><a href="index.html">전화 걸기</a></li>
+      <li><a href="index.html">직접 찾아가기</a></li>
+    </ul>
+    
+    <h2>SNS</h2>
+    <ul data-role="listview" data-inset="true">
+      <li><a href="index.html">카카오톡</a></li>
+      <li><a href="index.html">페이스북</a></li>
+      <li><a href="index.html">트위터</a></li>
+      <li><a href="index.html">인스타그램</a></li>
+    </ul>
+  </form>
+</div>
+<!--/content-primary -->
+
 </body>
 </html>
