@@ -17,6 +17,116 @@ h1 {
 	min-height: 200px;
 	margin-top: 0px;
 }
+.감귤 {
+	background:url(fruit/감귤.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 200px;
+	margin-top: 0px;
+}
+.감말랭이 {
+	background:url(fruit/감말랭이.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 200px;
+	margin-top: 0px;
+}
+.단감 {
+	background:url(fruit/단감.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 200px;
+	margin-top: 0px;
+}
+.메론 {
+	background:url(fruit/메론.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 200px;
+	margin-top: 0px;
+}
+.미니사과 {
+	background:url(fruit/미니사과.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 200px;
+	margin-top: 0px;
+}
+.밤 {
+	background:url(fruit/밤.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 200px;
+	margin-top: 0px;
+}
+.배 {
+	background:url(fruit/배.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 200px;
+	margin-top: 0px;
+}
+.사과 {
+	background:url(fruit/사과.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 200px;
+	margin-top: 0px;
+}
+.참다래 {
+	background:url(fruit/참다래.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 200px;
+	margin-top: 0px;
+}
+.토마토 {
+	background:url(fruit/토마토.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 200px;
+	margin-top: 0px;
+}
+.황금향 {
+	background:url(fruit/황금향.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 200px;
+	margin-top: 0px;
+}
 .main_table {
 	height: 30px;
 	margin: 0px;
