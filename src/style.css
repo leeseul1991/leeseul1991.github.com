@@ -47,26 +47,6 @@ h1 {
 	min-height: 200px;
 	margin-top: 0px;
 }
-.메론 {
-	background:url(fruit/메론.jpg) no-repeat center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	padding-bottom: 8%;
-	min-height: 200px;
-	margin-top: 0px;
-}
-.미니사과 {
-	background:url(fruit/미니사과.jpg) no-repeat center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	padding-bottom: 8%;
-	min-height: 200px;
-	margin-top: 0px;
-}
 .밤 {
 	background:url(fruit/밤.jpg) no-repeat center center;
 	-webkit-background-size: cover;
@@ -99,16 +79,6 @@ h1 {
 }
 .참다래 {
 	background:url(fruit/참다래.jpg) no-repeat center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	padding-bottom: 8%;
-	min-height: 200px;
-	margin-top: 0px;
-}
-.토마토 {
-	background:url(fruit/토마토.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
