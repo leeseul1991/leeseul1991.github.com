@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+.help_main {
+	background-color: white;
+}
+.help_menu {
+	margin-bottom: 50px;
+}
+.help_notice {
+	width: 70%;
+	height: auto;
+	border: solid 2px white;
+	margin: auto;
+	background: white;
+}
+.help_icon {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+.help_icon img {	
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 5px;
+	width: 38px;
+}
