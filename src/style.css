@@ -977,7 +977,7 @@ h1 {
 
 /* ************************************************************ */
 .event1 {
-	background:url(nut/대추.jpg) no-repeat center center;
+	background:url(event/1.jpg) no-repeat center center;
 	border: solid white 2px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -988,7 +988,7 @@ h1 {
 	margin: 0px 10px 0 10px;
 }
 .event2 {
-	background:url(nut/은행.jpg) no-repeat center center;
+	background:url(event/2.jpg) no-repeat center center;
 	border: solid white 2px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -999,7 +999,7 @@ h1 {
 	margin: 0px 10px 0 10px;
 }
 .event3 {
-	background:url(nut/햇밤.jpg) no-repeat center center;
+	background:url(event/3.jpg) no-repeat center center;
 	border: solid white 2px;	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
