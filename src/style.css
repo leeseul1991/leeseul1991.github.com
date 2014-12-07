@@ -482,6 +482,76 @@ h1 {
 	min-height: 4000px;
 	margin-top: 0px;
 }
+.fruit2 {
+	background:url(fruit/2.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 6500px;
+	margin-top: 0px;
+}
+.fruit3 {
+	background:url(fruit/3.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 4000px;
+	margin-top: 0px;
+}
+.fruit4 {
+	background:url(fruit/4.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 7000px;
+	margin-top: 0px;
+}
+.fruit5 {
+	background:url(fruit/5.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 4000px;
+	margin-top: 0px;
+}
+.fruit6 {
+	background:url(fruit/6.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 5500px;
+	margin-top: 0px;
+}
+.fruit7 {
+	background:url(fruit/7.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 6000px;
+	margin-top: 0px;
+}
+.fruit8 {
+	background:url(fruit/8.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 4000px;
+	margin-top: 0px;
+}
 .main_table {
 	height: 30px;
 	margin: 0px;
