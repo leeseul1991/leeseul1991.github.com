@@ -482,6 +482,7 @@ h1 {
 	min-height: 4000px;
 	margin-top: 0px;
 }
+<<<<<<< HEAD
 .fruit2 {
 	background:url(fruit/2.jpg) no-repeat center center;
 	-webkit-background-size: cover;
@@ -922,6 +923,8 @@ h1 {
 	min-height:1100px;
 	margin-top: 0px;
 }
+=======
+>>>>>>> origin/master
 .main_table {
 	height: 30px;
 	margin: 0px;
@@ -1018,7 +1021,7 @@ h1 {
 	margin-right: 5px;
 }
 
-#ev1, #ev2, #ev3, #ev4 {
+#ev1, #ev2, #ev3, #ev4, #s_icon {
     height:auto;
     cursor:pointer;
 }
@@ -1043,4 +1046,45 @@ h1 {
     -o-transition: height, 0.3s linear;
     transition: height, 0.3s linear;
 }
+.s_bar {
+    height:0px;
+	visibility: hidden;
+    -webkit-transition:height, 0.5s linear;
+    -moz-transition: height, 0.5s linear;
+    -ms-transition: height, 0.5s linear;
+    -o-transition: height, 0.5s linear;
+    transition: height, 0.5s linear;
+	
+	font-size: 12px;
+}
+.s_bar.open {
+	height:20px;
+	visibility: visible;
+    -webkit-transition:height, 0.3s linear;
+    -moz-transition: height, 0.3s linear;
+    -ms-transition: height, 0.3s linear;
+    -o-transition: height, 0.3s linear;
+    transition: height, 0.3s linear;
+}
+
+.mypage_menu{
+	text-align: center;
+	margin-top: 10px;
+}
+.mypage_menu img {
+	width: 52px;
+	margin: 20px;
+}
+.mypage_footer {
+	position: relative;
+	height: 150px;
+	margin-top:-150px;
+	
+	background: black;
+	color: white;
+	margin: 90px 0px 0 0px;
+	padding: 5px 10px 10px 10px;
+	font-size: 12px;
+}
+
 /* ************************************************************ */
