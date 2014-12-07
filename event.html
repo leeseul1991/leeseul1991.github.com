@@ -17,103 +17,161 @@
 
 <body>
 <div id="content" class="snap-content">
-  <div data-role="header">
-    <table width="100%" class="main_table">
-      <tr>
-        <td width="5%" align="left"><div id="toolbar"> <a href="#" id="open-left"></a></div></td>
-        <td width="*" align="center" valign="bottom"><a href="index.html" target="_self">
-          <h1>DAFARM</h1>
-          </a></td>
-        <td width="5%" align="right" valign="bottom"><img src="src/images/search.png" 
-				width="32" height="auto"></td>
-      </tr>
-    </table>
-    <nav data-role="navbar">
-      <ul >
-        <li><a href="event.html" target="_self"><img src='image/icon/event_white.png' 
-				onmouseover="this.src='image/icon/event_white.png';" 
-				onmouseout="this.src='image/icon/event_white.png';" /></a></li>
-        <li><a href="list_best.html" target="_self"><img src='image/icon/bestww.png' 
-				onmouseover="this.src='image/icon/bestww.png';" 
-				onmouseout="this.src='image/icon/bestww.png';" /></a></li>
-        <li><a href="help.html" target="_self"><img src='image/icon/help_white.png' 
-				onmouseover="this.src='image/icon/help_white.png';" 
-				onmouseout="this.src='image/icon/help_white.png';" /></a></li>
-        <li><a href="mypage.html" target="_self"><img src='image/icon/user_white.png' 
-				onmouseover="this.src='image/icon/user_white.png';" 
-				onmouseout="this.src='image/icon/user_white.png';" /></a></li>
-      </ul>
-    </nav>
-  </div>
-
-
-  <div data-role="content">
-
-
-
-    <div class="대추">
-      <h1 align="center" style="color: white;"><br>
-        대추 </h1>
-      <br>
-      <br>
-      <br>
-      <div class="read_more"><a href="#">이승원님</a></div>
-    </div>
-    <div style="height:20px"></div>
-    <div class="은행">
-      <h1 align="center" style="color: white;"><br>
-        은행 </h1>
-      <br>
-      <br>
-      <br>
-      <div class="read_more"><a href="#">충남 예산 한두진님</a></div>
-    </div>
-    <div style="height:20px"></div>
-    <div class="햇밤">
-      <h1 align="center" style="color: white;"><br>
-        햇밤 </h1>
-      <br>
-      <br>
-      <br>
-      <div class="read_more"><a href="#">이승원님</a></div>
-    </div>
-    <div style="height:20px"></div>
-
-
-
-
-
-    
-  </div>
+	<div data-role="header">
+		<table width="100%" class="main_table">
+			<tr>
+				<td width="5%" align="left"><div id="toolbar"> <a href="#" id="open-left"></a></div></td>
+				<td width="*" align="center" valign="bottom"><a href="index.html" target="_self">
+					<h1>DAFARM</h1>
+					</a></td>
+				<td width="5%" align="right" valign="bottom"><img src="src/images/search.png" 
+					width="32" height="auto"></td>
+			</tr>
+		</table>
+		<nav data-role="navbar">
+			<ul >
+				<li><a href="event.html" target="_self"><img src='image/icon/event_white.png' 
+					onmouseover="this.src='image/icon/event_white.png';" 
+					onmouseout="this.src='image/icon/event_white.png';" /></a></li>
+				<li><a href="list_best.html" target="_self"><img src='image/icon/bestww.png' 
+					onmouseover="this.src='image/icon/bestww.png';" 
+					onmouseout="this.src='image/icon/bestww.png';" /></a></li>
+				<li><a href="help.html" target="_self"><img src='image/icon/help_white.png' 
+					onmouseover="this.src='image/icon/help_white.png';" 
+					onmouseout="this.src='image/icon/help_white.png';" /></a></li>
+				<li><a href="mypage.html" target="_self"><img src='image/icon/user_white.png' 
+					onmouseover="this.src='image/icon/user_white.png';" 
+					onmouseout="this.src='image/icon/user_white.png';" /></a></li>
+			</ul>
+		</nav>
+	</div>
+	<div data-role="content">
+	<!-- --------------------------------------------------- -->
+		<div class="event_main">
+				<span id="lb_all" onClick="AllDisplay()">All</span>
+				<span> | </span>
+				<span id="lb_now" onClick="nowDisplay()">Now</span>
+				<span> | </span>
+				<span id="lb_close" onClick="stopDisplay()">Close</span>
+				<script>
+					function AllDisplay() {
+						document.getElementById("now").style.display="block";
+						document.getElementById("stop").style.display = "block";
+						document.getElementById("lb_all").style.fontWeight = "bold";
+						document.getElementById("lb_now").style.fontWeight = "normal";
+						document.getElementById("lb_close").style.fontWeight = "normal";
+					}
+					function nowDisplay() {
+						document.getElementById("now").style.display="block";
+						document.getElementById("stop").style.display = "none";
+						document.getElementById("lb_now").style.fontWeight = "bold";
+						document.getElementById("lb_all").style.fontWeight = "normal";
+						document.getElementById("lb_close").style.fontWeight = "normal";
+					}
+					
+					function stopDisplay() {
+						document.getElementById("now").style.display = "none";
+						document.getElementById("stop").style.display="block";
+						document.getElementById("lb_close").style.fontWeight = "bold";
+						document.getElementById("lb_now").style.fontWeight = "normal";
+						document.getElementById("lb_all").style.fontWeight = "normal";
+					}
+				</script>
+		</div>
+		
+		<div id="now">
+			<div id="ev1">
+				<div class="event1">
+					<h1 align="center" style="color: white;"><br>은행 </h1>
+				</div>
+				<div class="ev1_detail">
+					<span> 일시: 2014. 11. 03 ~ 2014. 12. 08<br>
+						내용: 모바일 프로그래밍 텀프로젝트
+					</span>
+				</div>
+			</div>
+			<div style="height:20px"></div>
+			
+			<div id="ev2">
+				<div class="event2">
+					<h1 align="center" style="color: white;"><br>은행 </h1>
+				</div>
+				<div class="ev2_detail">
+					<span> 일시: 2014. 11. 03 ~ 2014. 12. 08<br>
+						내용: 모바일 프로그래밍 텀프로젝트
+					</span>
+				</div>
+			</div>
+			<div style="height:20px"></div>
+		</div> <!-- now box end -->
+		
+		<div id="stop">
+			<div id="ev3">
+				<div class="event3">
+					<h1 align="center" style="color: white;"><br>은행 </h1>
+				</div>
+				<div class="ev3_detail">
+					<span> 일시: 2014. 11. 03 ~ 2014. 12. 08<br>
+						내용: 모바일 프로그래밍 텀프로젝트
+					</span>
+				</div>
+			</div>
+			<div style="height:20px"></div>
+		</div> <!-- stop box end -->
+	
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#ev1').click(function() {
+					$(this).find(".ev1_detail").toggleClass('open');
+				});
+			});
+			$(document).ready(function() {
+				$('#ev2').click(function() {
+					$(this).find(".ev2_detail").toggleClass('open');
+				});
+			});
+			$(document).ready(function() {
+				$('#ev3').click(function() {
+					$(this).find(".ev3_detail").toggleClass('open');
+				});
+			});
+			$(document).ready(function() {
+				$('#ev4').click(function() {
+					$(this).find(".ev4_detail").toggleClass('open');
+				});
+			});
+		</script>
+	<!-- --------------------------------------------------- -->		
+	</div>
 </div>
 <div class="snap-drawers">
-  <div class="snap-drawer snap-drawer-left">
-    <div align="center"> <a href="index.html" target="_self"><img src="image/logo2.png"></a></div>
-    <h4>Menu</h4>
-    <ul>
-      <li><a href="event.html" target="_self">Event</a></li>
-      <li><a href="list_best.html" target="_self">Best</a></li>
-      <li><a href="help2.html" target="_self">Help</a></li>
-      <li><a href="expand.html" target="_self">Mypage</a></li>
-    </ul>
-    <h4>SHOP</h4>
-    <ul>
-      <li><a href="list_fruit.html" target="_self">Fruit</a></li>
-      <li><a href="list_vegetable.html" target="_self">Vegetable</a></li>
-      <li><a href="list_kimchi.html" target="_self">Kimchi</a></li>
-      <li><a href="list_nut.html" target="_self">Nut</a></li>
-      <li><a href="list_food.html" target="_self">Food</a></li>
-    </ul>
-  </div>
+	<div class="snap-drawer snap-drawer-left">
+		<div align="center"> <a href="index.html" target="_self"><img src="image/logo2.png"></a></div>
+		<h4>Menu</h4>
+		<ul>
+			<li><a href="event.html" target="_self">Event</a></li>
+			<li><a href="list_best.html" target="_self">Best</a></li>
+			<li><a href="help2.html" target="_self">Help</a></li>
+			<li><a href="expand.html" target="_self">Mypage</a></li>
+		</ul>
+		<h4>SHOP</h4>
+		<ul>
+			<li><a href="list_fruit.html" target="_self">Fruit</a></li>
+			<li><a href="list_vegetable.html" target="_self">Vegetable</a></li>
+			<li><a href="list_kimchi.html" target="_self">Kimchi</a></li>
+			<li><a href="list_nut.html" target="_self">Nut</a></li>
+			<li><a href="list_food.html" target="_self">Food</a></li>
+		</ul>
+	</div>
 </div>
 </div>
 <script type="text/javascript" src="src/snap.js"></script> 
 <script type="text/javascript" src="src/assets/demo.js"></script> 
 <script type="text/javascript">
-			var snapper = new Snap({
-				element: document.getElementById('content'),
-				disable: 'right'
-			});
-	</script>
+	var snapper = new Snap({
+		element: document.getElementById('content'),
+		disable: 'right'
+	});
+</script>
 </body>
 </html>
