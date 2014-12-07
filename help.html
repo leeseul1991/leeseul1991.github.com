@@ -64,7 +64,30 @@
 			<h1>Contact Us</h1>
 			<a href="tel:010-7676-2442" target="_parent"><img src="image/icon2/call.png" ></a>
 			<a href="mms:010-7676-2442" target="_parent"><img src="image/icon2/mail.png"></a>
-			<a href="#"><img src="image/icon2/map.png"></a>
+			<img src="image/icon2/map.png" onclick="showDialog()">
+			<dialog id="myDialog">
+				<div id="map" style="width:500px; height:400px;" onclick="closeDialog()"></div>
+			</dialog>
+			<script type="text/javascript" 
+			src="//apis.daum.net/maps/maps3.js?apikey=7e81db82eb15e275a9f1151c1ab5414cf3c9cc8f"></script>
+			<script>
+				var container = document.getElementById('map');
+				var options = {
+					center: new daum.maps.LatLng(36.762694,127.2812309),
+					level: 3
+				};
+			
+				var map = new daum.maps.Map(container, options);
+			</script>
+			<script>
+				var x = document.getElementById("myDialog");
+				function showDialog() { 
+					x.show(); 
+				} 
+				function closeDialog() { 
+					x.close(); 
+				} 
+			</script>
 		</div>
 		<div class="help_icon">
 			<h1>SNS Share</h1>
