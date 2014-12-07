@@ -472,6 +472,16 @@ h1 {
 	min-height: 200px;
 	margin-top: 0px;
 }
+.fruit1 {
+	background:url(fruit/1.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 4000px;
+	margin-top: 0px;
+}
 .main_table {
 	height: 30px;
 	margin: 0px;
