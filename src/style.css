@@ -762,6 +762,166 @@ h1 {
 	min-height: 3500px;
 	margin-top: 0px;
 }
+.food1 {
+	background:url(food/1.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 5500px;
+	margin-top: 0px;
+}
+.food2 {
+	background:url(food/2.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 1300px;
+	margin-top: 0px;
+}
+.food3 {
+	background:url(food/3.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 4500px;
+	margin-top: 0px;
+}
+.food4 {
+	background:url(food/4.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 3500px;
+	margin-top: 0px;
+}
+.food5 {
+	background:url(food/5.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 4500px;
+	margin-top: 0px;
+}
+.food6 {
+	background:url(food/6.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 1500px;
+	margin-top: 0px;
+}
+.food7 {
+	background:url(food/7.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height:5500px;
+	margin-top: 0px;
+}
+.food8 {
+	background:url(food/8.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height: 4500px;
+	margin-top: 0px;
+}
+.food9 {
+	background:url(food/9.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height:8500px;
+	margin-top: 0px;
+}
+.nut1 {
+	background:url(nut/1.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height:2000px;
+	margin-top: 0px;
+}
+.nut2 {
+	background:url(nut/2.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height:4500px;
+	margin-top: 0px;
+}
+.nut3 {
+	background:url(nut/3.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height:2000px;
+	margin-top: 0px;
+}
+.kimchi1 {
+	background:url(kimchi/1.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height:4500px;
+	margin-top: 0px;
+}
+.kimchi2 {
+	background:url(kimchi/2.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height:1100px;
+	margin-top: 0px;
+}
+.kimchi3 {
+	background:url(kimchi/3.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height:1100px;
+	margin-top: 0px;
+}
+.kimchi4 {
+	background:url(kimchi/4.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 8%;
+	min-height:1100px;
+	margin-top: 0px;
+}
 .main_table {
 	height: 30px;
 	margin: 0px;
