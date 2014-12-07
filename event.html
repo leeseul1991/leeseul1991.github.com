@@ -17,18 +17,32 @@
 
 <body>
 <div id="content" class="snap-content">
-	<div data-role="header">
-		<table width="100%" class="main_table">
-			<tr>
-				<td width="5%" align="left"><div id="toolbar"> <a href="#" id="open-left"></a></div></td>
-				<td width="*" align="center" valign="bottom"><a href="index.html" target="_self">
-					<h1>DAFARM</h1>
-					</a></td>
-				<td width="5%" align="right" valign="bottom"><img src="src/images/search.png" 
-					width="32" height="auto"></td>
-			</tr>
-		</table>
-		<nav data-role="navbar">
+  <div data-role="header">
+    <table width="100%" class="main_table">
+      <tr>
+        <td width="5%" align="left"><div id="toolbar"> <a href="#" id="open-left"></a></div></td>
+        <td width="*" align="center" valign="bottom"><a href="index.html" target="_self">
+          <h1>DAFARM</h1>
+          </a></td>
+        <td width="5%" align="right" valign="bottom"><img id="scon" src="src/images/search.png" 
+				width="32" height="auto"></td>
+      </tr>
+    </table>
+    <div id="sbar" style="display:none;">
+      <form method="get" action="http://www.google.com">
+        <input type="search" name="q" size="21" maxlength="120">
+      </form>
+    </div>
+    <script>
+			$( "#scon" ).click(function () {
+			  if ( $( "#sbar" ).is( ":hidden" ) ) {
+				$( "#sbar" ).slideDown( "fast" );
+			  } else {
+				$( "#sbar" ).hide();
+			  }
+			});
+		</script>
+<nav data-role="navbar">
 			<ul >
 				<li><a href="event.html" target="_self"><img src='image/icon/event_white.png' 
 					onmouseover="this.src='image/icon/event_white.png';" 

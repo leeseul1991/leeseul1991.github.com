@@ -17,24 +17,23 @@
 
 <body>
 <div id="content" class="snap-content">
-	<div data-role="header">
-		<table width="100%" class="main_table">
-			<tr>
-				<td width="5%" align="left">
-					<div id="toolbar"> <a href="#" id="open-left"></a></div>
-				</td>
-				<td width="*" align="center" valign="bottom">
-					<a href="index.html" target="_self"><h1>DAFARM</h1></a></td>
-				<td width="5%" align="right" valign="bottom"><img id="scon" src="src/images/search.png" 
+  <div data-role="header">
+    <table width="100%" class="main_table">
+      <tr>
+        <td width="5%" align="left"><div id="toolbar"> <a href="#" id="open-left"></a></div></td>
+        <td width="*" align="center" valign="bottom"><a href="index.html" target="_self">
+          <h1>DAFARM</h1>
+          </a></td>
+        <td width="5%" align="right" valign="bottom"><img id="scon" src="src/images/search.png" 
 				width="32" height="auto"></td>
-			</tr>
-		</table>
-				<div id="sbar" style="display:none;">
-				<form method="get" action="http://www.google.com">
-					<input type="search" name="q" size="21" maxlength="120">
-				</form>
-				</div>
-		<script>
+      </tr>
+    </table>
+    <div id="sbar" style="display:none;">
+      <form method="get" action="http://www.google.com">
+        <input type="search" name="q" size="21" maxlength="120">
+      </form>
+    </div>
+    <script>
 			$( "#scon" ).click(function () {
 			  if ( $( "#sbar" ).is( ":hidden" ) ) {
 				$( "#sbar" ).slideDown( "fast" );
@@ -43,73 +42,80 @@
 			  }
 			});
 		</script>
-		<nav data-role="navbar">
-			<ul >
-				<li><a href="event.html" target="_self"><img src='image/icon/event_white.png' 
+    <nav data-role="navbar">
+      <ul >
+        <li><a href="event.html" target="_self"><img src='image/icon/event_white.png' 
 				onmouseover="this.src='image/icon/event_white.png';" 
 				onmouseout="this.src='image/icon/event_white.png';" /></a></li>
-				<li><a href="list_best.html" target="_self"><img src='image/icon/bestww.png' 
+        <li><a href="list_best.html" target="_self"><img src='image/icon/bestww.png' 
 				onmouseover="this.src='image/icon/bestww.png';" 
 				onmouseout="this.src='image/icon/bestww.png';" /></a></li>
-				<li><a href="help.html" target="_self"><img src='image/icon/help_white.png' 
+        <li><a href="help.html" target="_self"><img src='image/icon/help_white.png' 
 				onmouseover="this.src='image/icon/help_white.png';" 
 				onmouseout="this.src='image/icon/help_white.png';" /></a></li>
-				<li><a href="mypage.html" target="_self"><img src='image/icon/user_white.png' 
+        <li><a href="mypage.html" target="_self"><img src='image/icon/user_white.png' 
 				onmouseover="this.src='image/icon/user_white.png';" 
 				onmouseout="this.src='image/icon/user_white.png';" /></a></li>
-			</ul>
-		</nav>
-	</div>
-	<div data-role="content">
-		<div class="img1">
-			<h1 align="center" style="color: white;"><br>
-				DaFarm </h1>
-			<br>
-			<br>
-			<br>
-			<div class="read_more"><a href="#">read more</a></div>
-		</div>
-		<div style="height:20px"></div>
-		<div id="ninja-slider">
-			<ul>
-				<li><div data-image="slider/img/md/1.png"></div></li>
-				<li><div data-image="slider/img/md/2.png"></div></li>
-				<li><div data-image="slider/img/md/3.png"></div></li>
-				<li><div data-image="slider/img/md/4.png"></div></li>
-				<li><a data-image="slider/img/md/5.png" href="#"></a></li>
-			</ul>
-		</div>
-	</div>
+      </ul>
+    </nav>
+  </div>
+  <div data-role="content">
+    <div class="img1">
+      <h1 align="center" style="color: white;"><br>
+        DaFarm </h1>
+      <br>
+      <br>
+      <br>
+      <div class="read_more"><a href="#">read more</a></div>
+    </div>
+    <div style="height:20px"></div>
+    <div id="ninja-slider">
+      <ul>
+        <li>
+          <div data-image="slider/img/md/1.png"></div>
+        </li>
+        <li>
+          <div data-image="slider/img/md/2.png"></div>
+        </li>
+        <li>
+          <div data-image="slider/img/md/3.png"></div>
+        </li>
+        <li>
+          <div data-image="slider/img/md/4.png"></div>
+        </li>
+        <li><a data-image="slider/img/md/5.png" href="#"></a></li>
+      </ul>
+    </div>
+  </div>
 </div>
-	<div class="snap-drawers">
-	<div class="snap-drawer snap-drawer-left">
-		<div align="center">
-			<a href="index.html" target="_self"><img src="image/logo2.png"></a></div>
-			<h4>Menu</h4>
-			<ul>
-				<li><a href="event.html" target="_self">Event</a></li>
-				<li><a href="list_best.html" target="_self">Best</a></li>
-				<li><a href="help.html" target="_self">Help</a></li>
-				<li><a href="mypage.html" target="_self">Mypage</a></li>
-			</ul>
-			<h4>SHOP</h4>
-			<ul>
-				<li><a href="list_fruit.html" target="_self">Fruit</a></li>
-				<li><a href="list_vegetable.html" target="_self">Vegetable</a></li>
-				<li><a href="list_kimchi.html" target="_self">Kimchi</a></li>
-				<li><a href="list_nut.html" target="_self">Nut</a></li>
-				<li><a href="list_food.html" target="_self">Food</a></li>
-			</ul>
-		</div>
-	</div>
-	</div>
-	<script type="text/javascript" src="src/snap.js"></script> 
-	<script type="text/javascript" src="src/assets/demo.js"></script> 
-	<script type="text/javascript">
+<div class="snap-drawers">
+  <div class="snap-drawer snap-drawer-left">
+    <div align="center"> <a href="index.html" target="_self"><img src="image/logo2.png"></a></div>
+    <h4>Menu</h4>
+    <ul>
+      <li><a href="event.html" target="_self">Event</a></li>
+      <li><a href="list_best.html" target="_self">Best</a></li>
+      <li><a href="help.html" target="_self">Help</a></li>
+      <li><a href="mypage.html" target="_self">Mypage</a></li>
+    </ul>
+    <h4>SHOP</h4>
+    <ul>
+      <li><a href="list_fruit.html" target="_self">Fruit</a></li>
+      <li><a href="list_vegetable.html" target="_self">Vegetable</a></li>
+      <li><a href="list_kimchi.html" target="_self">Kimchi</a></li>
+      <li><a href="list_nut.html" target="_self">Nut</a></li>
+      <li><a href="list_food.html" target="_self">Food</a></li>
+    </ul>
+  </div>
+</div>
+</div>
+<script type="text/javascript" src="src/snap.js"></script> 
+<script type="text/javascript" src="src/assets/demo.js"></script> 
+<script type="text/javascript">
 			var snapper = new Snap({
 				element: document.getElementById('content'),
 				disable: 'right'
 			});
-	</script> 
+	</script>
 </body>
 </html>
